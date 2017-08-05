@@ -26,3 +26,12 @@
 
 **Link(s) to work**
 1. [Longest Consecutive Strings](https://github.com/jaredcaraway/longest-consecutive-strings/commit/736a41bbe78bf329e0e938368ecfb148955de6c4)
+
+### Day 4: August 5, 2017, Friday
+
+**Today's Progress**: Starting over paid off! Thinking through the problem anew and stepping through it in pseudo code really helped. It would probably be beneficial to try that approach more regularly, if my impatience will allow me to do so. I solved the kata I've been stuck on for several days. I submitted my response on CodeWars and I'm pleased to say it passed. I reviewed several of the more optimal and clever solutions and picked up a few tips I hadn't considered. I love that feature of CodeWars!
+
+**Thoughts** Very relieved to finally have this one done and behind me, and excited to get started on the next one. I've already made a directory and copied the files from the previous project into it - now I just need to initialize a new repo and customize the templates and get to work. I think I'll solve the next kata much more quickly after a cursory review of it tonight.
+
+**Link(s) to work**
+1. [Longest Consecutive Strings](https://github.com/jaredcaraway/longest-consecutive-strings/blob/master/longestConsecutiveStrings.js)
