@@ -37,7 +37,7 @@
 1. [Longest Consecutive Strings](https://github.com/jaredcaraway/longest-consecutive-strings/blob/master/longestConsecutiveStrings.js)
 
 
-### Day 5: August 6, 2017, Monday
+### Day 5: August 7, 2017, Monday
 
 **Today's Progress**: I'm editing today's log in vim (rather than Atom or gedit, which I've been using previously), which is a whole learning process in and of itself. But I do see the potential power of this editor, once I become acquainted with it. It's pretty foreign initially, but I'll stick with it. I spent a lot of time today reading up on Python and typing in some practice code. I am learning how to use Pygame with the goal of completing my first game. It's a pretty basic concept that's been done many times before, but I think it'll be a good learning project. Basically, you control a character that you move around the screen and dodge objects flying at you from every direction with increasing speed and size until you die. I've had limited experience with Python, but it's been a while, and I've never used Pygame...so it's a bit of a slow process up front. Also, it's technically Monday as of my writing this, but it's just after midnight, so I'm still going to count this as a streak! Once I'm up to speed, I'll probably start working on the game for some of my upcoming entries and will thus be switching from JavaScript to Python for a little while.
 
