@@ -47,3 +47,16 @@ Back on the Codewars front ([Join my team here! I just got my first teammate tod
 
 **Link(s) to work**
 1. [Middle Character](https://github.com/jaredcaraway/middle-char/blob/master/middleChar.js)
+
+### Day 6: August 6, 2017, Tuesday
+
+**Today's Progress**: I started a new JavaScript project today. The goal is to take an integer and output it in expanded form (so if 10524 is inputted, you would expect "10000 + 500 + 20 + 4"). I thought I'd gotten it to work, but when I submitted my code through Codewars, I found that it fails on certain edge cases and tacks on an extra plus sign at the end of certain integers. I will have to sleep on it and revisit tomorrow.
+
+**Thoughts** I am pleased at the speed with which I produced my pseudo code, but I'm currently frustrated with the edge cases issue. I thought I had it figured out! To be fair, though, I haven't put much bandwidth into debugging it. I'm glad I got it to run as well as it's running currently, at least.
+
+I used vim for most of today's programming, but I honestly got a little frustrated at how frequently I had to switch to my browser to Google certain functionality. I'll still chip away at it, but it's slowing me down significantly. If I don't get the hang of it soon, I may switch to something else, such as gEdit. I don't think I need something as heavy as Atom for the complexity of what I'm working on, and I don't have the most powerful machine, so lightweight is better.
+
+In the near future, I hope to figure out how to get my projects to run with the output properly displaying on Github pages rather than outputting to console.log, which is not acceptable for production code. While setting up Github Pages, I found instructions for installing a Ruby-powered, static-page blog platform called Jekyll. I'm going to experiment with it and see if it'll be worth switching over from my current Wordpress.com setup.
+
+**Link(s) to work**
+1. [Expanded Form](https://github.com/jaredcaraway/expanded-form/blob/master/expandedForm.js)
