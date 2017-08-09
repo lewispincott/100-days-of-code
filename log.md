@@ -48,7 +48,7 @@ Back on the Codewars front ([Join my team here! I just got my first teammate tod
 **Link(s) to work**
 1. [Middle Character](https://github.com/jaredcaraway/middle-char/blob/master/middleChar.js)
 
-### Day 6: August 6, 2017, Tuesday
+### Day 6: August 8, 2017, Tuesday
 
 **Today's Progress**: I started a new JavaScript project today. The goal is to take an integer and output it in expanded form (so if 10524 is inputted, you would expect "10000 + 500 + 20 + 4"). I thought I'd gotten it to work, but when I submitted my code through Codewars, I found that it fails on certain edge cases and tacks on an extra plus sign at the end of certain integers. I will have to sleep on it and revisit tomorrow.
 
@@ -57,6 +57,17 @@ Back on the Codewars front ([Join my team here! I just got my first teammate tod
 I used vim for most of today's programming, but I honestly got a little frustrated at how frequently I had to switch to my browser to Google certain functionality. I'll still chip away at it, but it's slowing me down significantly. If I don't get the hang of it soon, I may switch to something else, such as gEdit. I don't think I need something as heavy as Atom for the complexity of what I'm working on, and I don't have the most powerful machine, so lightweight is better.
 
 In the near future, I hope to figure out how to get my projects to run with the output properly displaying on Github pages rather than outputting to console.log, which is not acceptable for production code. While setting up Github Pages, I found instructions for installing a Ruby-powered, static-page blog platform called Jekyll. I'm going to experiment with it and see if it'll be worth switching over from my current Wordpress.com setup.
+
+**Link(s) to work**
+1. [Expanded Form](https://github.com/jaredcaraway/expanded-form/blob/master/expandedForm.js)
+
+### Day 7: August 9, 2017, Wednesday
+
+**Today's Progress**: I finished the Codewars kata I started yesterday...and man, this one was a battle. I started over numerous times in search of the winning solution. There's definitely nothing elegant about my code, and it's far from optimized, but it works (having passed over 100 case tests).
+
+**Thoughts** I really struggled through this one and Googled extensively to get it running (though I was Googling mainly for Mozilla Developer Network entries for various JavaScript functions, not for tips on how to solve the specific problem). There were a lot of first uses for me in this solution, including my first usage of objects as well as first implementations of the built-in split, forEach, and repeat functions. It didn't seem *terribly* challenging at the outset, but as I got deeper and deeper into coding it, I started to realize the complexity. I'm hardly ready to be hired on as a junior developer, but I feel like I nonetheless grew as a coder in the process of nailing this one down. I'm hoping to revisit it one day with an eye for refactoring. [Here's a link to the problem](https://www.codewars.com/kata/write-number-in-expanded-form/train/javascript) in case you're interested in attempting it for yourself.
+
+On a side note, I stuck entirely to gEdit while working out this solution. It's a lot more user-friendly than vim. I do like vim, but I wanted to make more progress on the problem rather than getting bogged down with the learning process for an unfamiliar editor. gEdit is more than adequate for my purposes right now.
 
 **Link(s) to work**
 1. [Expanded Form](https://github.com/jaredcaraway/expanded-form/blob/master/expandedForm.js)
