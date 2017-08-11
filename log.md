@@ -71,3 +71,12 @@ On a side note, I stuck entirely to gEdit while working out this solution. It's 
 
 **Link(s) to work**
 1. [Expanded Form](https://github.com/jaredcaraway/expanded-form/blob/master/expandedForm.js)
+
+### Day 8: August 10, 2017, Thursday
+
+**Today's Progress**: Took a break from JavaScript today to get started on my first Python game (using the Pygame library), called Chicken vs. Egg! (exclamation point included). I spent a good deal of time reading up on the documentation and other people's examples to understand how to proceed. I'm starting off slowly; so far I've gotten the program to display a small window with a black background along with a chicken and two sizes of an egg. I drew all the graphics myself using Gimp. They're not cutting edge, but they could be much worse! My goal right now is to get a working draft out, not get hung up on perfecting the details. I will improve incrementally. I also incorporated git branching into my development process today for maybe the second time ever. As my programs increase in complexity, I intend to make more regular use of this feature so I can try out different things without messing up the master branch. Finally, I figured out how to compare my last commit and currently staged files via git diff. Productive and positive day of coding.
+
+**Thoughts** I am pretty damn proud of today's progress. I have quite a bit of work ahead of me, but I am looking forward to achieving my childhood dream of making a video game for the very first time. It's been decades in the making now. It's a pretty awesome feeling to see my rudimentary graphics displayed onscreen. I can't wait to see them moving around. My code right now is a little bit disorganized, but I will clean it up as I go. I'm in the "trying to figure this out" phase right now, so elegance is not a priority at the moment!
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
