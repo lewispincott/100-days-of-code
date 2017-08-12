@@ -89,7 +89,7 @@ Earlier today, I started playing around with Django for the first time. I'll adm
 
 Finally, I started setting up my Github Pages and revisited a previous script to start the process of offering a decent interface that users can use to enter their own values (versus sticking exclusively to the examples coded into the script.
 
-**Thoughts** I lost my focus today and started pulling myself in different directions, but I was still paricipating in the 100 days project all the same. I have no examples to show today beccause I didn't push anything to Github from my local machine. I left my code in a less than ideal state, so I didn't want to push it until I've had a change to go back over everying with fresh eyes. Tomorrow, I'd like to make some more meaningful progress on my game. I'm still working through the 100 days challenge, example or not. Did I mention I'm tired? I'm going to bed! I'll be back tomorrow with more updates.
+**Thoughts** I lost my focus today and started pulling myself in different directions, but I was still participating in the 100 days project all the same. I have no examples to show today beccause I didn't push anything to Github from my local machine. I left my code in a less than ideal state, so I didn't want to push it until I've had a change to go back over everying with fresh eyes. Tomorrow, I'd like to make some more meaningful progress on my game. I'm still working through the 100 days challenge, example or not. Did I mention I'm tired? I'm going to bed! I'll be back tomorrow with more updates.
 
 **Link(s) to work**
 1. N/A
