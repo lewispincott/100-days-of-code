@@ -93,3 +93,16 @@ Finally, I started setting up my Github Pages and revisited a previous script to
 
 **Link(s) to work**
 1. N/A
+
+### Day 10: August 12, 2017, Saturday
+
+**Today's Progress**: Man, I was actually falling asleep when I typed out yesterday's log. I made more progress today after a good night's sleep.
+
+For today's coding, I set up a new Python project with the simple goal of getting acquainted with classes and objects, which I'll ultimately need to incorporate in Chicken vs. Egg! This program is a command line-based script which prompts you for a dog breed and name, instantiates a new Dog object based on the provided arguments, and appends them to a list. After inputting the first dog's info, you are given the ability to view the current list of dogs, add another dog, or quit. This loop continues until you select the "quit" option, as you might have guessed. I specifically was struggling with the idea of how to create numerous instances of a class without having to specifically provide a variable name to store the objects in. Now I know how to do it via a list. This is how I plan on storing the multiple instances of Egg objects (and, if I ever get to that point, multiple Chicken objects for two-player support). It's definitely [Shitty First Code](http://peelingoffthebark.wordpress.com/2017/07/28/shitty-first-code/), but I am still fairly new to Python and am glad to have just gotten it working.
+
+I strayed from my git discipline on this one, because I wasn't sure if this one would be worth tracking via a repo. But I kept chipping away at it, and while I don't think there are many people out there who would benefit from using this program, I figured at least I could put it up for evaluation by similarly situated beginners. I don't mean to imply that anything in my code is representative of best practices or elegance, but it's valuable to examine the output of others to analyze how they go about tackling a problem. Maybe somebody can look at what I did wrong, even, and learn not to take that particular approach.
+
+**Thoughts** I feel accomplished, for sure. This is the most involved Python script I've written to date, and I feel like I learned a decent amount in the process. It's not the most useful script, but I feel good to have produced something functional, and my object-oriented skills are definitely improving. I've read quite a few criticisms of the OOP approach to programming, but I think it'll suit my purposes well enough. I ultimately want to have a solid mastery of procedural, functional, and object-oriented programming. I think they each have their strong suits and appropriate applications. But I'm also still a pretty young programmer, so perhaps I'll become more opinionated as my skills and experience continue to develop.
+
+**Link(s) to work**
+1. [Dogs](https://github.com/jaredcaraway/dogs)
