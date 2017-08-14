@@ -106,3 +106,20 @@ I strayed from my git discipline on this one, because I wasn't sure if this one 
 
 **Link(s) to work**
 1. [Dogs](https://github.com/jaredcaraway/dogs)
+
+### Day 11: August 13, 2017, Sunday
+
+**Today's Progress**: I returned to Chicken vs. Egg! for today's coding. When I left off, I'd figured out how to display a window for displaying graphics onscreen, and I displayed static sprites of a chicken and an egg (in two sizes). At that point, there was no user input to control any of the sprites.
+
+I made a branch in my git repository with the aim of getting the chicken to switch directions in response to the left/right arrow keys being pressed. I quickly got that working via pygame.transform.flip, so I continued on to implement actual movement (just left and right to start). This took a couple of passes, but it still ultimately didn't require too much of a time investment before I figured it out (thanks largely to the fact that I was able to Google code to model mine own after).
+
+When I first got the chicken to move, I had it set to only move a pixel at a time in either direction, and it would not move continously as long as the key was pressed down (which was the behavior I was after). I experimented with a few different movement increments until I felt it was reasonable, and then I looked up another method to read keypresses which allow for continuous movement. Then I ran into a problem with detecting the edge of the screen - simple enough, just check if the sprite has moved beyond 0 or screenWidth-chickenWidth (since the coordinates are measured from the top left of the sprite, I needed to account for the width of the chicken on the right side). If the chicken has gone out of bounds, just move it back in with a conditional statement and an additional line of code.
+
+Next, I ran into the problem of a fucking HYPER SPEED chicken that moved from one side of the screen to the other in a fraction of a second - so fast that it looked like it was teleporting. To solve this, I figured out I needed to create a Clock object and call clock.tick(30) at the end of each pass through the game loop to get the visual output down to a much more visible 30 frames per second.
+
+So objective complete. Next up, I'll add the ability to move the chicken up and down. I also need to add a background at some point and, of course, add in the eggs. All in due time.
+
+**Thoughts** Another day of pleasing results. I feel like the chicken's controls are off to a great start; the real challenges lie ahead, but I'm proud of my progress.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
