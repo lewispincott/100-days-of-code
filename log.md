@@ -123,3 +123,16 @@ So objective complete. Next up, I'll add the ability to move the chicken up and 
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 12: August 14, 2017, Monday
+
+**Today's Progress**: Bit of a frustrating day working on Chicken vs. Egg!, but I did make a bit of progress. I figured out how to display text in the window and popped in a dummy bit of "Score" text that, for now, will always read zero until I start writing the scoring logic (which is admittedly still a ways off). I also added logic to exit the program when the Q or escape keys are pressed, so I no longer have to click the X in the window to close it.
+
+![Chicken moving around with score displayed onscreen](https://github.com/jaredcaraway/chicken-vs-egg/blob/master/screenshots/chicken-movement-demo-2.gif)
+
+The frustration came in when I tried to get rudimentary collision detection working. I set up a branch for this. As it stands right now, my chicken is basically a ghost on the screen that does not know where its edges are and is unable to know when it has run into something else. After a little research, I figured out I needed to make a Rect object in Pygame that matches up with the image. However, my attempts at getting it to work were futile up front. I broke the program and couldn't get it running again, and I committed it in its broken state before switching back to the master branch. When I got back to the master, I found that I had forgotten to merge the changes I'd made (described above) while the program was still working - so I did one of my first hard resets to roll the program back to the commit I made right before I broke it. (And thus I'm really beginning to see the value in regular commits.)
+
+**Thoughts** It's becoming increasingly clear to me that I need to approach this in an object-oriented manner sooner rather than later, because my code is going to quickly get out of hand otherwise. Before I reset to my previous commit, the code was already starting to get pretty ugly! I will say, though, that my frustration should not be mistaken as discouragement. I'm actually determined to get some sleep and take another stab at this problem tomorrow. I may go ahead and start refactoring in OOP mode.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
