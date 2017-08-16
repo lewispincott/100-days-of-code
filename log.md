@@ -136,3 +136,14 @@ The frustration came in when I tried to get rudimentary collision detection work
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 13: August 15, 2017, Tuesday
+
+**Today's Progress**: For a slight change of pace today, I returned to a series of problems I first encountered *years*, ago, maybe a decade or more back. It's a puzzle website of sorts called [Python Challenge](http://www.pythonchallenge.com/). It's a clever website, even though it looks like it was designed sometime in the late 90s. Essentially, you have to write a Python script to solve a problem for each page in order to obtain the URL which will lead you to the next puzzle page. You often have to view the page source to find the information you need to progress - for example, one page included about a thousand lines of non-alphanumeric characters with alpha characters mixed in, all commented out in the source of the page. To find the URL for the next page, I had to figure out a way to filter out all the noise to find what were basically needles in the haystack. 
+
+What I like about this website is that it forces me to seek out functions of Python I wouldn't normally use, some of them fairly advanced. I just finished puzzle number 5, which introduced me to a serialization/deserialization process called pickling (wtf?), and the previous puzzle required me to use the urllib2 library to loop through a couple hundred pages, opening each following one programmatically to find the number to tack into a query on the URL to lead me to the next one. After almost 300 passes, the loop crashed. I plugged the last number into the query string tacked onto the base page URL, and the page then told me where I needed to direct my browser to carry on. If I'd clicked through manually, this probably would have taken me 10-15 minutes, but Python handled this problem in probably 30-45 seconds. Very cool.
+
+**Thoughts** Python Challenge is further familiarizing me with Python, which is still relatively foreign to me in comparison with JavaScript (which I definitely am nowhere near mastering). I think I needed this detour; it'll help make me a little more comfortable when I return to Chicken vs. Egg! Among several other things I learned tonight was regular expression syntax and how to implement it in Python. It took me probably an hour minimum to really understand what I was doing, and even now there's still a lot I don't quite understand. But that'll come with practice. I'm anxious to try out regex in JavaScript, once I focus back on programming in that language. I wasn't intending on making a git repo for my Python Challenge scripts, but I went ahead and made one so you can look through to get a sense of what is involved in solving the puzzles. They really make me think (and Google furiously).
+
+**Link(s) to work**
+1. [Python Challenge solutions](https://github.com/jaredcaraway/python-challenge)
