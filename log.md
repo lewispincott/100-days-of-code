@@ -147,3 +147,18 @@ What I like about this website is that it forces me to seek out functions of Pyt
 
 **Link(s) to work**
 1. [Python Challenge solutions](https://github.com/jaredcaraway/python-challenge)
+
+### Day 14: August 16, 2017, Wednesday
+
+**Today's Progress**: I didn't make as much notable progress today as I have in previous days, mainly because I got so caught up on a particular level of the Python Challenge. I ultimately ended up completing it, mostly, but had to defer to looking up the answer after all my attempts kept failing. :-/
+
+I'm referring to [level 7](http://www.pythonchallenge.com/pc/def/oxygen.html). For this one, you're presented with a PNG image which looks quite odd - it's a photo of a riverbank, but across the middle of the image is a series of grayscale chunks ranging from gray to black in seemingly random order. I figured it was some kind of message encoded in the image, so I spent a lot of time researching the appropriate library (or libraries) to use, as I'd never dealt with programmatically processing and manipulating raw image data.
+
+I kept coming back to StackOverflow advice for this one. I made it almost all the way to the answer based solely on my own research (read: googling), but got caught up on the last stage of the problem. Basically, the RGB values for each successive block correspond to an ASCII character; you read in the values from the blocks, then convert them to characters to get the message. The catch is that the decoded message itself contains an additional message to decoded, and I made some sort of error in parsing the encoded image blocks which resulted in slightly incorrect output of the code within the code. 
+
+When I tried to translate these numbers, I got a mix of expected, readable characters and nonprintable characters, such as shift out, control, and feed forward. The error appears to be that for these erroneous characters, the hundreds digit got removed (returning 16 rather than 116, for example). In frustration, I went ahead and threw in the towel to find the answer and try to figure out what I did wrong. I have as yet not quite figured it out, but I did indeed make progress today, so I'm not too disappointed.
+
+**Thoughts** I love how creative Python Challenge is, and it forces me to think outside the box (rather than solving more run-of-the-mill problems). Today I learned some basic image processing via script, and I also learned how to process zip files via programming as well (and a large number of them, at that). Python is not a panacea, and I imagine I'll need to dig into one or more other lower-level, non-interpreted languages as I progress in my development career. That said, I respect how powerful it is and how relatively easy it is to import a library and get things done with this particular language. I'd like to return to working on my game soon, though. Proud to have made it two weeks strong into the 100 Days of Code, in any event!
+
+**Link(s) to work**
+1. [Python Challenge solutions](https://github.com/jaredcaraway/python-challenge)
