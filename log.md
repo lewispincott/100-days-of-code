@@ -163,16 +163,7 @@ When I tried to translate these numbers, I got a mix of expected, readable chara
 **Link(s) to work**
 1. [Python Challenge solutions](https://github.com/jaredcaraway/python-challenge)
 
-### Day 15: August 17, 2017, Thursday
-
-**Today's Progress**: On a more minor note, I learned a new git feature today. After adding my modified file to the staging area and committing with a message, I noticed I'd typoed the message. A quick Google search revealed that all I would have to do is type git --amend to pull up the latest commit and modify it before pushing. Git is so complex, which can be pretty daunting, but I also love how powerful it is. I couldn't imagine doing serious work on code without it.
-
-**Thoughts** I love how creative Python Challenge is, and it forces me to think outside the box (rather than solving more run-of-the-mill problems). Today I learned some basic image processing via script, and I also learned how to process zip files via programming as well (and a large number of them, at that). Python is not a panacea, and I imagine I'll need to dig into one or more other lower-level, non-interpreted languages as I progress in my development career. That said, I respect how powerful it is and how relatively easy it is to import a library and get things done with this particular language. I'd like to return to working on my game soon, though. Proud to have made it two weeks strong into the 100 Days of Code, in any event!
-
-**Link(s) to work**
-1. [Python Challenge solutions](https://github.com/jaredcaraway/python-challenge)
-
-### Day 16: August 18, 2017, Friday
+### Day 15: August 18, 2017, Friday
 
 **Today's Progress**: So far, I'd figured out that it was possible to view difference between your current and previous commits. But I wondered - was it possible to see a difference between branches, or over time? As it turns out, yes! I haven't figured it out on git proper yet, but on Github, you just append "/compare" to the end of your project repo's URL and it pulls up a neat page allowing you to compare between the master branch and additional branches. There's also an option to compare different version tags, but I haven't gotten to the point of including version tags in my programs yet, so that's yet to be explored by me.
 
