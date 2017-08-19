@@ -173,6 +173,8 @@ In order to make use of Pygame's built in Sprite class, I made my new Chicken cl
 
 I'll probably come back to the OOP refactoring tomorrow, but I deviated from that aspect of the project to add vertical movement for the chicken. This wasn't difficult at all; it was actually much easier than the horizontal movement (which wasn't particularly difficult to begin with). The main difference is that, since the chicken maintains the direction it's facing when moving vertically, I don't have to flip the sprite if it changes direction.
 
+![Chicken moving around in ALL directions with score displayed onscreen](https://github.com/jaredcaraway/chicken-vs-egg/blob/master/screenshots/chicken-movement-demo-3.gif)
+
 I ran into a brief issue when I moved the keypress detection code into the Chicken instance method. For some reason, it wasn't reading 'q' or Esc keypresses to exit when I tried to detect them within the move() function, but I got it to work again by moving the conditional statement back to the main game loop after the move() instance method call.
 
 **Thoughts** Another day of marked progress. I feel more certain than ever that I'm going to achieve my goal of making my very first game at the tender age of 30 (something I've been dreaming of for decades now). I'm at a significant advantage having Pygame to rely on, and using Python itself is making it much easier than my previous attempts in C++ (though I'm interested in revisiting the language; I doubt I'll ever seriously get into it, but I also have a morbid interest in assembly language programming, too).
