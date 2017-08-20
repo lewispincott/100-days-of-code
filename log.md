@@ -27,7 +27,7 @@
 **Link(s) to work**
 1. [Longest Consecutive Strings](https://github.com/jaredcaraway/longest-consecutive-strings/commit/736a41bbe78bf329e0e938368ecfb148955de6c4)
 
-### Day 4: August 5, 2017, Saturday 
+### Day 4: August 5, 2017, Saturday
 
 **Today's Progress**: Starting over paid off! Thinking through the problem anew and stepping through it in pseudo code really helped. It would probably be beneficial to try that approach more regularly, if my impatience will allow me to do so. I solved the kata I've been stuck on for several days. I submitted my response on CodeWars and I'm pleased to say it passed. I reviewed several of the more optimal and clever solutions and picked up a few tips I hadn't considered. I love that feature of CodeWars!
 
@@ -43,7 +43,7 @@
 
 Back on the Codewars front ([Join my team here! I just got my first teammate today!](https://www.codewars.com/r/O-OiLw)) with another kata, I started and solved a much more simple problem than the one I was working on in my previous few logs. I closed the Codewars tab and, for some reason, I wasn't able to pull the challenge back up...but I have a new script to show for it all the same, even if I can't get points for it on the website. My latest script takes an input string and returns either the middle character (if the string is an odd length) or the middle two characters (if the length is even). It didn't take me long to figure out how to accomplish this one, a fact more attributable to the ease of the problem than an advance in my coding skills (which is not to say I'm not making progress, because I definitely am!). I even figured out a way to return the solution in a single line of code using a ternary expression for a more "optimized" answer, but opted to flesh it out for the sake of readability and understandability, which I believe are more important than some extremely marginal (if any) performance improvement. All things considered, I'd say today was pretty productive.
 
-**Thoughts** I'm quite pleased with my progess today, and while I'm still struggling through it, I'm slowly starting to get the hang of vim. I can see myself using this more regularly in the future, though I'll still probably incorporate Atom into my workflow. I hope to finish up my background self-education with Pygame in the next couple days and start uploading my work on my first game soon. 
+**Thoughts** I'm quite pleased with my progess today, and while I'm still struggling through it, I'm slowly starting to get the hang of vim. I can see myself using this more regularly in the future, though I'll still probably incorporate Atom into my workflow. I hope to finish up my background self-education with Pygame in the next couple days and start uploading my work on my first game soon.
 
 **Link(s) to work**
 1. [Middle Character](https://github.com/jaredcaraway/middle-char/blob/master/middleChar.js)
@@ -139,7 +139,7 @@ The frustration came in when I tried to get rudimentary collision detection work
 
 ### Day 13: August 15, 2017, Tuesday
 
-**Today's Progress**: For a slight change of pace today, I returned to a series of problems I first encountered *years*, ago, maybe a decade or more back. It's a puzzle website of sorts called [Python Challenge](http://www.pythonchallenge.com/). It's a clever website, even though it looks like it was designed sometime in the late 90s. Essentially, you have to write a Python script to solve a problem for each page in order to obtain the URL which will lead you to the next puzzle page. You often have to view the page source to find the information you need to progress - for example, one page included about a thousand lines of non-alphanumeric characters with alpha characters mixed in, all commented out in the source of the page. To find the URL for the next page, I had to figure out a way to filter out all the noise to find what were basically needles in the haystack. 
+**Today's Progress**: For a slight change of pace today, I returned to a series of problems I first encountered *years*, ago, maybe a decade or more back. It's a puzzle website of sorts called [Python Challenge](http://www.pythonchallenge.com/). It's a clever website, even though it looks like it was designed sometime in the late 90s. Essentially, you have to write a Python script to solve a problem for each page in order to obtain the URL which will lead you to the next puzzle page. You often have to view the page source to find the information you need to progress - for example, one page included about a thousand lines of non-alphanumeric characters with alpha characters mixed in, all commented out in the source of the page. To find the URL for the next page, I had to figure out a way to filter out all the noise to find what were basically needles in the haystack.
 
 What I like about this website is that it forces me to seek out functions of Python I wouldn't normally use, some of them fairly advanced. I just finished puzzle number 5, which introduced me to a serialization/deserialization process called pickling (wtf?), and the previous puzzle required me to use the urllib2 library to loop through a couple hundred pages, opening each following one programmatically to find the number to tack into a query on the URL to lead me to the next one. After almost 300 passes, the loop crashed. I plugged the last number into the query string tacked onto the base page URL, and the page then told me where I needed to direct my browser to carry on. If I'd clicked through manually, this probably would have taken me 10-15 minutes, but Python handled this problem in probably 30-45 seconds. Very cool.
 
@@ -154,7 +154,7 @@ What I like about this website is that it forces me to seek out functions of Pyt
 
 I'm referring to [level 7](http://www.pythonchallenge.com/pc/def/oxygen.html). For this one, you're presented with a PNG image which looks quite odd - it's a photo of a riverbank, but across the middle of the image is a series of grayscale chunks ranging from gray to black in seemingly random order. I figured it was some kind of message encoded in the image, so I spent a lot of time researching the appropriate library (or libraries) to use, as I'd never dealt with programmatically processing and manipulating raw image data.
 
-I kept coming back to StackOverflow advice for this one. I made it almost all the way to the answer based solely on my own research (read: googling), but got caught up on the last stage of the problem. Basically, the RGB values for each successive block correspond to an ASCII character; you read in the values from the blocks, then convert them to characters to get the message. The catch is that the decoded message itself contains an additional message to decoded, and I made some sort of error in parsing the encoded image blocks which resulted in slightly incorrect output of the code within the code. 
+I kept coming back to StackOverflow advice for this one. I made it almost all the way to the answer based solely on my own research (read: googling), but got caught up on the last stage of the problem. Basically, the RGB values for each successive block correspond to an ASCII character; you read in the values from the blocks, then convert them to characters to get the message. The catch is that the decoded message itself contains an additional message to decoded, and I made some sort of error in parsing the encoded image blocks which resulted in slightly incorrect output of the code within the code.
 
 When I tried to translate these numbers, I got a mix of expected, readable characters and nonprintable characters, such as shift out, control, and feed forward. The error appears to be that for these erroneous characters, the hundreds digit got removed (returning 16 rather than 116, for example). In frustration, I went ahead and threw in the towel to find the answer and try to figure out what I did wrong. I have as yet not quite figured it out, but I did indeed make progress today, so I'm not too disappointed.
 
@@ -180,6 +180,17 @@ I ran into a brief issue when I moved the keypress detection code into the Chick
 **Thoughts** Another day of marked progress. I feel more certain than ever that I'm going to achieve my goal of making my very first game at the tender age of 30 (something I've been dreaming of for decades now). I'm at a significant advantage having Pygame to rely on, and using Python itself is making it much easier than my previous attempts in C++ (though I'm interested in revisiting the language; I doubt I'll ever seriously get into it, but I also have a morbid interest in assembly language programming, too).
 
 As a side note, I think I might incorporate version numbers into my project going forward to give a sense of my progress; I'm researching how best to do this. I believe I'm ready to call it v0.1; I'll bump it to 1.0 when I've implemented the bare minimum number of features to call it a playable game.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 16: August 19, 2017, Saturday
+
+**Today's Progress**: Today I ran my Chicken vs. Egg! project through Codacy, an online service that reviews and highlight any errors or inconsistencies in your code, and ultimately passed with 100%. I felt pretty good about that for one of my first "serious" programs. I think I'll start making it part of my development habit.
+
+I did finish refactoring the Egg class today. Next, I think I'm going to add rectangles to the sprites to enable collision detection. I also moved onto level 9 of Python Challenge after getting caught up on one problem - I have to admit, I ended up getting so frustrated that I went online looking for tips or hints, but ended up finding the solution. I was on the right track, but my attempt at a solution was WAY more time intensive.
+
+**Thoughts** I'm still learning every day. I look forward to finally putting the interactive touches on my game that make it feel like a "real" game. Short log today because I'm extremely tired and want to sleep. See y'all tomoorrow!
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
