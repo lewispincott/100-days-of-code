@@ -194,3 +194,16 @@ I did finish refactoring the Egg class today. Next, I think I'm going to add rec
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 17: August 20, 2017, Sunday
+
+**Today's Progress**: I hit a pretty major milestone today, though it might not look like much onscreen. I got collision detection working in Chicken vs. Egg! I felt that this warranted a bump up to v0.2. This involved adding Pygame rects (for rectangles) into my chicken and egg classes to act essentially as bounding boxes, invisible barriers representing the edges of the objects. I'd previously been using x and y attributes belonging directly to the respective classes, but now that information belongs to the Rect objects (which adds a number of other benefits, such as attributes for the various parts of the rectangles like top center, bottom right, and so on). I also added in sprite groups, creating lists for eggs, chickens (should I ultimately add multiplayer, which I intend to at least try), and one for all sprites - egg and chicken alike. I wrote a simple test that determines when the one chicken intersects with the one stationary egg onscreen, displaying a message in red at the bottom of the game window when they are colliding.
+
+![Chicken moving around in ALL directions displaying a message when collision is detected](https://github.com/jaredcaraway/chicken-vs-egg/blob/master/screenshots/chicken-movement-demo-4.gif)
+
+This latest development arrived with minimal resistance and debugging, which I'm pretty pleased with. Now I need to figure out where I'll go next with the game - I think I'll get the egg to move and make sure collision detection still works in that state, then figure out how to "kill" the egg object when it moves off the edge of the screen. Naturally, I'll keep you posted.
+
+**Thoughts** Today's progress was very exciting and encouraging. Getting the sprites to recognize that they're making contact with one another is a major step forward for me; I don't want to be overly optimistic, but with the daily progress I've been making, I think I could have a playable game within a month, estimating conservatively, and a couple weeks, at best. But I'll still be adding features even once it is a "legit" game; I want to do the best possible job on this game, simple though it may be. I'd ultimately love to work in a rudimentary wing-flapping animation for the chicken and make the eggs rotate as they fly across the screen, but that's all secondary to the base gameplay!
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
