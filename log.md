@@ -221,3 +221,28 @@ In the script, I find the ordered list with id "output" and save that DOM object
 **Link(s) to work**
 1. [isPrime on Github Pages](https://jaredcaraway.github.io/isPrime/)
 2. [...and the source for it](https://github.com/jaredcaraway/isPrime)
+
+### Day 19: August 22, 2017, Tuesday
+
+**Today's Progress**: I branched off in a couple different directions today. This will be a LONG log entry.
+
+I returned to the Python Challenge website to try to tackle [the current problem I'm stuck on](http://www.pythonchallenge.com/pc/return/bull.html), which I've been doing for short periods of time over the last several days; I keep it open in a tab and keep switching back to it to see if I can gain any insight. You're given the first several items in an array and basically told that the solution is index 30 at that array, when extended out. It looks at first glance like a basic pattern recognition problem, but a second look seems to reveal that it's a series of ternary (rather than binary) numbers.
+
+That led me to throw together a very basic ternary to decimal script. I could have looked one up online fairly quickly, but I preferred to solve the problem and further hone my skills.  (I may upload the repo in the future, but as for right now it's programmed specifically for the challenge.) I still haven't solved the problem, but that's because I keep getting distracted by other things.
+
+I started experimenting with Requests and BeautifulSoup. I'm using XKCD as a guinea pig, since they have a very simple URL structure (and I started reading the comics from the first one when I visited their site today). While I could just view the comics in the site and manually click through to the next one, I thought it would be an interesting project to Pythonically find the image source and display it in a window on my machine. Ultimately, the goal is to have an XKCD viewer where I can move back and forth to the previous/next entries via arrow keypresses. Once I get that working, I'll figure out how to display the caption text for each comic that appears when you mouseover it. (For now, I'm not quite ready to share the source on this one, either.)
+
+I made more progress on Chicken vs. Egg! today, and I feel myself getting closer to a playable game. First, I wanted to simply make the egg move laterally across the screen, then remove it once it disappeared off the edge. Then I easily figured out how to make it wrap (Pac-Man style) and reappear on the opposite side, looping forever (or until I pressed one of the exit keys). This prompted me to modify the egg class constructor - the initial version took a tuple position argument for me to specify where on the screen to draw the egg upon instantiation. I remove the coordinates parameter, started the egg at the far left side of the screen, and added code to randomly generate its vertical position. I then modified the code to "kill" the egg object once it went offscreen, but subsequently instantiate a new egg as soon as the previous one disappeared.
+
+After I got that working, I realized that the 400 by 400 pixel field I've been working with was far too small - so I made it fullscreen. In a future implementation, I think I'll add the option to toggle fullscreen (which won't be difficult). It feels SO good to be making progress!
+
+![Fullscreen mode with egg moving sideways across screen with a new egg appearing at a random height on the opposite side with each pass.](https://github.com/jaredcaraway/chicken-vs-egg/blob/master/screenshots/chicken-movement-demo-5.gif)
+
+On a side note, I intend to compete in the Pyweek game challenge, where I'll have to come up with a game in a week's time based on a theme that's revealed a week before the competition. I don't know if I yet have the knowledge and experience to pull it off, but I'd like to at least try and learn in the process. Even if I don't win, or finish for that matter, I could at least come up with the seed of a project I continue working on once the competition ends.
+
+**Thoughts** Great progress today, for sure. I'll return to the XKCD viewer tomorrow; I bet I can get it working with enough Googling. I'll also do some research into how to make my eggs move in directions other than horizontal. From there, I'll need to start them off on varying sides of the screen, heading in different directions at different angles. Then increasing difficulty, a basic main menu, and other polish like a background, sprite animations, and a few other small details.
+
+Tomorrow marks the 20% mark of my 100 Days of Code participation. It really is becoming a standard part of my day, and I'm finding myself seeking out information about libraries and other programming-related stuff daily. I haven't made any big, complex programs or apps yet, but I can comfortably say that I'm a developer/programmer/coder/whatever, if only on a basic level. I love doing this stuff, and I hope to have a job in the industry by this time next year.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
