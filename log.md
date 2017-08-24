@@ -246,3 +246,19 @@ Tomorrow marks the 20% mark of my 100 Days of Code participation. It really is b
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 20: August 23, 2017, Wednesday
+
+**Today's Progress**: For a change of pace today, I started exploring the CSS3 flexbox model via a nifty little gamified tutorial I first heard about on the Talk Python To Me podcast. If you want to check it out, it's called Flexbox Zombies. The zombie meme was stale a long time ago, but this is a surprisingly fun way to learn the technique - and the animation is beautiful.
+
+I revisited my prime-number-checking webpage to test out the flexbox functionality on a small scale. I've also prettied it up a little more, and overall I'm pretty happy with how it looks at this point (though I'm sure I'll continue to find small tweaks I'd like to make to it over time; it's hard to put my stamp on it and say "no more").
+
+I made a branch of Chicken vs. Egg! to test out egg rotation, which I thought would be easy...WRONG! Python has a built-in rotation function, but it doesn't perform as expected. Rotating the sprite changes the dimensions, which in turn changes the bounding rectangle dimensions and provides a new center. The key is to rotate around the center, and the center changes with each rotation. I've still got some thinking to do on this one. It's not an absolutely necessary feature, but it would be cool to implement.
+
+I started learning about linear algebra today; I'll ultimately need to know it if I want to move into 3D graphics.
+
+**Thoughts** No major breakthroughs today, but progress was made all the same. I look forward to continuing my streak tomorrow!
+
+**Link(s) to work**
+1. [isPrime on Github Pages](https://jaredcaraway.github.io/isPrime/)
+2. [...and the source for it](https://github.com/jaredcaraway/isPrime)
