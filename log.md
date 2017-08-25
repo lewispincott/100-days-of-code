@@ -262,3 +262,20 @@ I started learning about linear algebra today; I'll ultimately need to know it i
 **Link(s) to work**
 1. [isPrime on Github Pages](https://jaredcaraway.github.io/isPrime/)
 2. [...and the source for it](https://github.com/jaredcaraway/isPrime)
+
+### Day 21: August 24, 2017, Thursday
+
+**Today's Progress**: Completed some more of the Flexbox Zombies tutorial today - it's fairly complex, but I love what I've learned about it thus far. I also tooled around a bit with browser SVG - I drew a simple circle, played around with the attributes, and experimented with modifying the attributes via JavaScript for some basic animation effects. I also looked up CSS3 animation, but stuck to checking out examples - I didn't do any experimenting. I didn't want to overload my brain, but I do plan on returning to it at some future point.
+
+I added a background to Chicken vs. Egg! I'm not totally sure I'm satisfied with it, but it'll do for now. Now that I'm running the game fullscreen, the original sprite I made rather quickly is not sufficient, and since it's a bitmap image I won't be able to scale it up without distorting it to some degree. So I decide to go ahead and redesign the chicken. It's not the best, but I think it's at least a slight improvement.
+
+I've been thinking through how best to get eggs to start coming in from random sides at random angles, and I should be able to implement it in the next few days if all goes well. I'm also going to eventually figure out how to animate the chicken via a sprite sheet, which should be much easier since I saved the GIMP project file and used a different layer for every single part of the chicken (except the wing, but that can be easily fixed). I'd intended to scale down the chicken, but I think for now I'll keep it bigger - so I scaled the egg up to match, and I increased the egg and chicken speeds.
+
+![Screenshot of a larger chicken on a background photo of dry, cracked soil](https://github.com/jaredcaraway/chicken-vs-egg/blob/master/screenshots/chicken-vs-egg-screenshot-5.png)
+
+Finally, I started working on the scoring mechanism. I figure once I get that up and running, it should only require a minimal amount of logic tweaking to make it work once the randomized egg functionality is working.
+
+**Thoughts** I made more incremental progress today, and that's totally okay - it's still progresss. I am still moving forward and I'm happy about it. Seeing this simple game evolve step by step has been a strangely exciting process; every time I get something else working, it feels like a real accomplishment.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
