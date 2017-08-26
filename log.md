@@ -279,3 +279,16 @@ Finally, I started working on the scoring mechanism. I figure once I get that up
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 22: August 25, 2017, Friday
+
+**Today's Progress**: Today I changed directions again and returned my focus to freeCodeCamp, where I left off a few months ago on the portfolio page project after half-assing it through the tribute page (mainly because I had a hard time coming up with someone to pay tribute to, and then because I settled on Abraham Lincoln and was more interested in moving on to the next lesson rather than researching a timeline of events in the life of Abe Lincoln, no offense to the guy).
+
+I was stuck on the portfolio page because, while I've worked on a good number of WordPress sites, none of them were completely my work, and I felt like a phony calling myself a web developer/designer/whatever when almost all of my work was limited to trivial WordPress sites rather than hand-coded HTML. I also didn't enjoy working with Bootstrap, which is what freeCodeCamp promotes in its lessons.
+
+But today I sucked it up and returned to the portfolio project, going through slowly while reading through the Bootstrap documentation to try to glean a more thorough understanding of the framework. It certainly is a powerful tool to have in my bag of tricks, so I think it's worthwhile to be familiar with - though I don't intend to rely entirely on it when I'm building sites. I was also hesitant to use something which relied on such unsemantic markup, but once I get the basics down, there are mixins I can use to make it more semantic. One step at a time.
+
+**Thoughts** Bootstrap is thorough as hell, so I spent more time today reading than coding - but I still think I hit the bare minimum of an hour coding, anyway. I'm including a link to my current barebones/incomplete portfolio for reference as I shape it. It is just a skeleton at present, but it'll start taking shape in the next few days, I think. I feel good about Bootstrap thus far.
+
+**Link(s) to work**
+1. [freeCodeCamp portfolio project](https://codepen.io/jaredcaraway/pen/mMGrWZ)
