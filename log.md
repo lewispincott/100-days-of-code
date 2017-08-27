@@ -292,3 +292,18 @@ But today I sucked it up and returned to the portfolio project, going through sl
 
 **Link(s) to work**
 1. [freeCodeCamp portfolio project](https://codepen.io/jaredcaraway/pen/mMGrWZ)
+
+### Day 23: August 26, 2017, Saturday
+
+**Today's Progress**: When I was browsing through Codepen today, I came across a recommended pen by a creative lady named [Sasha Tran](https://codepen.io/sashatran/#) featuring a CSS drawing (not to be confused with CSS3 animations). I'd seen several CSS drawings recently and Googled the subject, and coincidentally, [an article she wrote on Medium](https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89) back in February was one of the top results. As I scrolled through her progressively more complex designs, I came down with a case of "Me Too!" syndrome and decided to try my hand at my first CSS drawing.
+
+I showed my girlfriend some examples of Sasha's work and told her I was interested in learning how to make similar creations; she loves avocados, so she told me she thought it would be cool if I could try to make one. One of my weaknesses is coming up with ideas, so I graciously accepted her challenge. And that's what I ended up doing today - I made my first CSS drawing of a pretty basic avocado with a little face (and a smile)!
+
+![Digital drawing of an avocado with little black eyes, a smile, and a pit for a nose](http://i.imgur.com/bBEGKBy.png)
+
+I also read through more of the Bootstrap documentation, but in light of the version 4 alpha release, I'm thinking perhaps I should start reading up on that one instead; I understand they made some pretty big changes. On the other hand, it *is* only an an alpha release, so I think I'll at least continue using version 3 on my portfolio page and maybe then start working with the most recent version after that.
+
+**Thoughts** I'm really branching out in terms of my skills, and I'm hopeful that it's not negatively impacting my growth - I wonder if I should be focusing on one thing and getting *really* good at it versus dabbling in a handful of different things. But I'm a curious person and a lifelong learner, so I think for the time being I'm going to keep pursuing what interests me. I feel good about the new skills I learned today, at least, and it definitely doesn't hurt that I'm solidifying my knowledge of what CSS can do (though some of the drawing techniques I'm using feel a little hacky).
+
+**Link(s) to work**
+1. [CSS Avocado Guy](https://codepen.io/jaredcaraway/pen/oePMqG/)
