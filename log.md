@@ -307,3 +307,22 @@ I also read through more of the Bootstrap documentation, but in light of the ver
 
 **Link(s) to work**
 1. [CSS Avocado Guy](https://codepen.io/jaredcaraway/pen/oePMqG/)
+
+### Day 24: September 2, 2017, Saturday
+
+**Today's Progress**: I'm cheating. It's been almost a week since I last logged, but Hurricane Harvey came through my area and threw us for a temporary loop. This broke my streak and made me lose my focus, but I'm back on the horse again (and very thankful to report nothing lost and no damage; we were very lucky). Honestly, I intended to just start from day one, but I wasn't sure exactly how to do that (leave this log as-is and start a new one?). I think the most important thing is that I *code*, and I doubt anybody is really going to care too much that I took a little hiatus. With that said...
+
+I returned to Chicken vs. Egg! today, and I added several more pieces of functionality:
+
+* Score now works
+* Eggs now fly in from every side of the screen, though they're presently still limited to horizontal/vertical movement until I figure out how to make them fly at odd angles
+* Egg speed increases by 5 (pixels) every 10 points and by 10 every 20 points
+
+I added the random direction functionality on an older branch, so when I went to merge it into my master, there were several conflicts. This was my first time having to go through and reconcile the conflicts, and it was good experience. I only had to make a few changes, and luckily they were pretty minor. At this point, I can say that I have a *very* basic game...but I'm not done.
+
+I still want to add in high scores, perhaps sprite animations, odd egg angles, game over text, and a basic menu. I'd also possibly like to add in some type of power-up, maybe the ability for a second player to join in, and even a difficulty setting (where, for example, you'd have a number of lives to lose before game over; it's currently pretty hardcore in that if you get hit, you start all the way over). Aside from those things, there are a handful of minor tweaks I'd like to make to polish it further.
+
+**Thoughts** Great progress for my first day back at coding in about a week. My code isn't pretty or optimal, but I've got it working the way I want on a very basic level. For now, I'm happy with that - but there's still plenty of work to do.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
