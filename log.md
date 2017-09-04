@@ -326,3 +326,30 @@ I still want to add in high scores, perhaps sprite animations, odd egg angles, g
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 25: September 4, 2017, Monday
+
+**Today's Progress**: I started the Python track on HackerRank ("HR" for short) today, and since I'm a completionist (and a sucker for gamification), I took a big step backward by starting at the beginning (with printing "Hello, World!" and working with conditional statements, among several other fairly basic techniques). HR is point-based, so I wanted to start at the beginning to earn as many points as possible.
+
+I completed the introductory module (which was so basic that I didn't bother to create repos for any of the problems) and moved into the more challenging...um, challenges. The first required me to take an inputted number between 1 and 9 and print what's called a "palindromic triangle" based on the number. So, for example, if I have an input of 3, the output would be "12321"; essentially, print every number leading up to the input, the input itself, and then every number leading back down to 1, thus forming a numeric palindrome.
+
+My natural inclination would have been to write out some inefficient Shitty First Code, but this particular challenge demanded a solution using only two lines and a single for loop; otherwise, zero points would be awarded. This forced me to really dig into Python's functionality to learn how to effect the proper output in a single print statement. I knew I'd need to use functions.
+
+After some tinkering, I figured out I'd need to print out a range followed by the inputted number. I also learned how to print the range backwards and that I could specify the interval by which the range incremented/decremented. My initial solution was correct, but the output was a couple of lists with the inputted number sandwiched in between. The solution calls for a string.
+
+This led me to figuring out how to convert the list to a string. With a little research, I found that the map function is what I was after. The map function allows you to run a function on a list - in my case, I ran the str function on my ranges to convert each of the integers to a string; however, this still left me with a list of strings that I needed to join.
+
+Enter the join function. I used ''.join() around my map function to join the elements together as a string with  no separator (denoted by the quotes with nothing inside).
+
+And with that, I'd solved the palindromic triangle challenge... Or so I thought.
+
+One of the other constraints is that you're not allowed to use strings at all. I racked my brain, but ultimately I had to look at the discussion section of the problem to figure out how to solve this. The problem is titled "Triangle Quest 2," and I hadn't completed Triangle Quest 1. If I had, I would have learned that this problem could be solved mathematically. The solution is very tricky, and I'm honestly not sure I would have figured it out on my own.
+
+For n between 1 and 9, the palindromic triangle can be determined via the formula (10**n//9)**2. In non-Pythonic terms, this means you would raise 10 to the power of n and divide it by 9 to return an integer (rather than a float; in Python 3, // returns an integer result whereas / returns a float). This result is then squared to give the answer. So for n=3, you would get 1000//9 = 111. 111**2 = 12321. Very clever, but definitely over my head. All the same, I'm proud of having figured the answer out more literally with strings.
+
+In other news, I switched interfaces on Ubuntu from the default Unity to Gnome. I like them both. I'm more comfortable with Unity, since I've got more experience with it, but I appreciate how much cleaner (and more extensible) Gnome is. It's probably been two months now since I've logged into Windows; everything I've needed to do has been possible (and usually, though not always) better in Linux. I'm sure at some point I'll log back into Windows to try my hand at game programming in that environment, but as for now, there's no real need.
+
+**Thoughts** I learned a substantial amount from this two-line programming solution. It was surprisingly rewarding to have the minimalist constraint, which forced me to think in ways that disallowed bloated code. However, it also taught me how much more I have to learn about math (and how difficult it is for me to think mathematically).
+
+**Link(s) to work**
+1. [Numeric Palindrome](https://github.com/jaredcaraway/num-palindrome)
