@@ -363,4 +363,4 @@ This one wasn't a brain bender, but it did take me a while to research how to ru
 **Thoughts** Not the sexiest problem, but I still learned some new stuff today. Among the things I learned, which I didn't even incorporate into the solution, was how to pass a list of arguments (args) and keyword arguments (kargs) by prefacing function parameters with \* and \*\*, respectively. I'm going to try to work on something a little more fun tomorrow, though.
 
 **Link(s) to work**
-1. [Numeric Palindrome](https://github.com/jaredcaraway/num-palindrome)
+1. [List Commands](https://github.com/jaredcaraway/list-commands)
