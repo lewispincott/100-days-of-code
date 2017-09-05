@@ -353,3 +353,14 @@ In other news, I switched interfaces on Ubuntu from the default Unity to Gnome. 
 
 **Link(s) to work**
 1. [Numeric Palindrome](https://github.com/jaredcaraway/num-palindrome)
+
+### Day 26: September 5, 2017, Tuesday
+
+**Today's Progress**: Back with another HackerRank challenge today in Python. This one provides a list of text commands to be performed on a list, which involved me using the sys.stdin functionality. The list of commands starts with a number representing the number of commands to follow (which, in hindsight, I realize I disregarded in my solution). A list of plaintext commands, such as "insert 0 5" and "print" follows. The solution I came up with involved splitting each line from stdin into components, then inelegantly checking for each command with a set of if-elif conditional statements.
+
+This one wasn't a brain bender, but it did take me a while to research how to run it on my local machine. I took the approach of storing the input text in a separate file, then running this command from Terminal: "cat commands.txt | python list-commands.py". This provided the data in commands.txt as the stdin (whereas on HackerRank the input is read in automatically). Fairly straightforward problem to solve, but I did enjoy it. I'm trying to figure out how I can refactor the code, perhaps using lambda functions in a dictionary.
+
+**Thoughts** Not the sexiest problem, but I still learned some new stuff today. Among the things I learned, which I didn't even incorporate into the solution, was how to pass a list of arguments (args) and keyword arguments (kargs) by prefacing function parameters with \* and \*\*, respectively. I'm going to try to work on something a little more fun tomorrow, though.
+
+**Link(s) to work**
+1. [Numeric Palindrome](https://github.com/jaredcaraway/num-palindrome)
