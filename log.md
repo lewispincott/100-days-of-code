@@ -364,3 +364,18 @@ This one wasn't a brain bender, but it did take me a while to research how to ru
 
 **Link(s) to work**
 1. [List Commands](https://github.com/jaredcaraway/list-commands)
+
+### Day 27: September 6, 2017, Wednesday
+
+**Today's Progress**: I told myself I'd be back in Windows eventually, and that ended up happening sooner than I'd expected. In the process of switching my Ubuntu GUI from Unity to GNOME and back to Unity, I somewhat broke it. Until I have time to figure out how to fix it, I'm back in Windows 10. I already miss Linux. I started to edit this log in my old go-to, Notepad++, but I discovered that it doesn't have built-in Markdown syntax highlighting. Coincidentally, earlier today I downloaded Visual Studio Code, since I've seen a number of other people recommend it, and as an added bonus it recognizes Markdown and automatically highlights it. So I'm giving this editor a try, but I'm only just now starting to work with and thus haven't had time to form any opinions on it yet.
+
+I really want to make my way through the rest of FreeCodeCamp, but in order to do that, I'll need to use Bootstrap so I can revise my severely lacking/incomplete portfolio. And in order to do that, I'd prefer to go ahead and familiarize myself with BS4...and that's time I don't quite have at present, but I'll try to chip away at it.
+
+Speaking of Unity, I also installed the Unity engine (for game development) today. It looks pretty complex, so I'll also need to find time to educate myself on that a bit before I start diving in. Also on my to-do list is learning to make my first 3D model in Blender, perhaps with the ultimate goal of incorporating it into a game. Again, the only real factor is free time. I've got an insatiable hunger for learning new things, but I'm also fond of biting off more than I can chew, which can have a negative effect on my overall progress if I overwhelm myself...so I'm going to try to keep taking small steps forward and attaining achievable goals. There's no real rush.
+
+On a final note, I stopped by my local library again today and checked out 2013 book called PHP Design Patterns. It's got some advanced concepts, way beyond anything I've ever done in PHP (mainly in the WordPress realm), but I'm hoping to glean some knowledge which may even extend to other languages.
+
+**Thoughts** I really want to get Linux working again. Switching back to Windows (which I've used for decades) has resulted in a severe decrease in my productivity. A little bit disappointed with my lack of progress today, but I can't realistically expect *every* day to be a total success. I'll devote more time tomorrow to troubleshooting whatever the hell I did to break Linux.
+
+**Link(s) to work**
+None today.
