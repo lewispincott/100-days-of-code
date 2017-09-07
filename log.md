@@ -379,3 +379,24 @@ On a final note, I stopped by my local library again today and checked out 2013 
 
 **Link(s) to work**
 None today.
+
+### Day 28: September 7, 2017, Thursday
+
+**Today's Progress**: I'm pretty pleased to say that I got back into Ubuntu, and I feel back at home. It's strange because, while I don't consider myself to be a Windows fanatic, it's the OS I've used since I was a kid and with which I'm most familiar. And yet, within a matter of months, I've taken more of a liking to Linux. It's got its drawbacks, for sure, but when it comes to coding, I hit my stride in Ubuntu.
+
+I wasn't able to get Unity running again for whatever reason (despite repeated failed attempts), so I decided I'd settle for reinstalling GNOME just so I could get back into Linux in some form. Luckily, I installed 3.8, and it's MUCH better than the version I installed previously (which must have been older). I think I'll give up on Unity and stick with this GUI. I went ahead and installed Visual Studio Code on this OS as well, and I think I'm starting to home in on my ideal development environment.
+
+One of the things I like a lot about VS Code so far is its extensibility. I added a Python extension which runs PyLint every time I save, and it's brought to my attention that I've been writing code which isn't up to strict Python standards. For example, variables not contained within a function are considered classes, and there are certain naming conventions I've been disregarding. In the process of developing a single script, I've learned quite a bit about writing more "proper" Python code.
+
+I got an email earlier today informing me that I've got a copy of Machine Learning in Python waiting for me at my local library; I'm excited to check it out. I started reading up a little on statistics in the meantime to prepare myself, since there's a *lot* of math in machine learning.
+
+On the coding front, I started a new HackerRank Python challenge (which is what I started using PyLint on, learning about naming conventions and such). This one takes an XML file and returns a "score" which is the sum of all attributes associated with the XML tags. For my purposes while developing, I included a sample XML file in the project directory on my machine. My typical practice was always to reference the file name (without a path), and it's always worked, since I've always had the file in the directory I was running it from. VS Code gives you the option to run the file in Terminal from within the editor, and I found that it was unable to locate the relative path of the file. This led me to research how to more properly reference a file's relative path by way of importing the os module. It takes a couple more lines of code, but I think it's a much stronger way to read in a file via relative path.
+
+The funny thing about all that is the HR problem requires reading in info from stdin, not a file. All the same, I learned some good info in the process. And new knowledge is my ultimate goal in this adventure; constant new knowledge. That's the only way to truly grow.
+
+I haven't solved the problem according to HR's terms, but I have written a script which successfully traverses an XML tree and returns the sum of all attributes contained within the tags. With a little modification, I'll have it solved and bump my rank up a little.
+
+**Thoughts**: I am so happy to be back working in Linux. I learned a good deal today, and for that, I am satisfied.
+
+**Link(s) to work**
+[XML Score](https://github.com/jaredcaraway/xml_score)
