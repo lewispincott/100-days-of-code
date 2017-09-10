@@ -400,3 +400,24 @@ I haven't solved the problem according to HR's terms, but I have written a scrip
 
 **Link(s) to work**
 [XML Score](https://github.com/jaredcaraway/xml_score)
+
+### Day 29: September 9, 2017, Saturday
+
+**Today's Progress**: I took a day off yesterday, but I'm back at it again today.
+
+I've been working as a contractor doing transcription editing for a company called 3Play Media, which has absorbed a good chunk of my free time as of late. I have previously worked for a couple of other web-based companies doing transcription work, namely TranscribeMe and Rev, but I ditched both of those due to low-quality audio files and substantially lower pay. The model for 3Play is also different - they run files (which, on average, are *much* higher quality) through an audio recognition software to produce a preliminary transcript, and my job is to run through the file and correct any errors the recognition software produced in addition to breaking the text into paragraphs, adding punctuation, and so forth. That's slightly irrelevant information, but I felt like mentioning it, because logging for this project feels pretty much like blogging at this point (and I thought I'd mention it for anyone who's reading and might be interested in applying to do this type of work).
+
+On the learning front, I've started working through the Statistics and Probability course on Khan Academy in conjunction with reading The Cartoon Introduction to Statistics by Grady Klein and Alan Dabney, Ph.D. This knowledge will be crucial as I start getting into machine learning; as a Literature major, I never needed to take Stats in college. So far, it's pretty straightforward (although I did find what I believe to be a mistake in one of the problems on KA, which I reported).
+
+So far, I'm entirely satisfied with my switch from Kate to VS Code. For a full-featured editor, it doesn't take too long to load, and I'm pleased with how responsive it is (no lag when typing, which I expected may be an issue).
+
+In a major step forward, I set my laptop up on a shallow desk with a small LCD TV hooked up to it as a second monitor. I feel like I just got room to stretch my legs. Having a second monitor is SO awesome. I was previously doing all of my work sitting on my couch with a TV tray beside me to hold my various books/drinks/etc. I've still got that beside me as a sort of extension of the desk, but it's extremely nice to have a solid surface to sit everything on, to write on, and to get the hot laptop off my lap. I've also got my headphones hanging on a thumbtack on the wall within arm's reach for added convenience. Definite win.
+
+I created a Kaggle account and downloaded a few datasets (top 5,000 movies on IMDB; 712 Pokemon). I doubt I'll get around with playing with them today, as I don't think I yet have the tools to do anything meaningful with them. But I'm interested to do some number crunching sooner rather than later, once I get a bit more of an idea of what I'm going to do with this information.
+
+On the coding front, I am back on HackerRank again today. This time I solved a problem using a brand new (to me) technique: exception handling with try/catch. It's something I'm aware of, but have never needed to use (or wasn't sure how to implement). You're given a set of numbers as a list, and you're supposed to return the penultimate highest value. This means that if you sort the list and there are any duplicates, you need to keep looking back from the end of the list until you hit the second to last unique value. I couldn't immediately identify a function in Python which would allow me to quickly remove the duplicates. After some brainstorming, I tried searching for entries in the list using index(). I learned that it returns a ValueError if you give it an argument that's not contained in the list. My approach, then, was to create an empty list. Iterating through the given list, within a try statement I call index on the blank list for each element. If the element is found in the new list, it's a duplicat and unneeded, so nothing happens. If the element is not found, it's not in the list and needs to be. So within an exception statement, I append the current element to the new list. I'm sure there's a more clever approach, but I was proud to figure out how to use error handling of my own volition tonight!
+
+**Thoughts**: I missed a day, but that doesn't bother me. I've still been constantly educating myself, and my will to continue coding hasn't lessened at all. I'm still thinking up new ideas to try out in a program. I can't wait to get into machine learning.
+
+**Link(s) to work**
+[Second Largest Number](https://github.com/jaredcaraway/second_largest_num)
