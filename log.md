@@ -421,3 +421,21 @@ On the coding front, I am back on HackerRank again today. This time I solved a p
 
 **Link(s) to work**
 [Second Largest Number](https://github.com/jaredcaraway/second_largest_num)
+
+### Day 30: September 10, 2017, Sunday
+
+**Today's Progress**: I've decided to start another game - Tic Tac Toe. Even though it's a simple game, I'm finding myself spending a decent amount of time up front thinking out the design. I personally don't enjoy playing tic tac toe; I'm doing this as an exercise in thinking and implementing a new project. (I've included a link in today's log, though as of this posting there is not much to see, and the game is not anywhere near playable.)
+
+I find myself asking: how do I represent the player in a way that would later allow me to easily implement a second player? Should I implement the game board as its own class? Which methods should each of these classes possess? So far, I've decided to create separate classes for both the game board and the player. I still need to add in a class to represent the computer AI while there is no two-player mode. Within that, I'll also need to figure out how to effectively provide for several different difficulty settings (with the highest being impossible, where the computer will only be able to either win or draw). Since this is one of the simplest possible games I could program, I'm trying to figure this all out on my own through the iterative process of trial and error.
+
+Even once I've got the core mechanics of the game done, there's not a whole lot of polish I can really add - but I'd like to at least add in a menu. Maybe I'll add in a "time trial" mode so the player can compete against their personal best time in beating the computer. This is honestly a pretty boring game, so I'm doing this all for my own information and experience. So far, it's paying off; I am using a Python technique that's still relatively new to me (list comprehension) to automatically fill a two-dimensional array with values upon instantiation.
+
+I'm also still loving Visual Studio Code. PyLint has been extremely useful to me, though I do suspect that some of the objections it's throwing at me are unnecessarily strict. All the same, I'm modifying my code to remove the errors/warnings so that, even if it compiles with them?
+
+On the education front, I've continued with my Khan Academy lessons on Statistics. I'm going through basic graphing/plotting stuff today. Most of it is not new to me, but I did learn about stem-and-leaf plots, which I don't recall ever learning about in school. I'm not sure how useful that particular skill will be, but it can't hurt to tuck it away in case I need it one day. I've also continued reading my stats graphic novel (basically) which I mentioned in yesterday's log. It's pretty cute, and it's got some good information. I don't think, though, that I'll retain this info until I actually put it to use.
+
+**Thoughts**: Solid progress today. I am happy about it! Looking forward to getting another simple game under my belt. I'm sure even programming something so simple will offer me some new knowledge, especially when it comes to calculating potential moves for the AI.
+
+**Link(s) to work**
+1. [Tic-tac-toe (main repo)](https://github.com/jaredcaraway/tictactoe)
+2. [Today's commit](https://github.com/jaredcaraway/tictactoe/commit/7c3f2bd231612037f318b44e8a695e08edd5cb9c)
