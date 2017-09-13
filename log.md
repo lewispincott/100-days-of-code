@@ -439,3 +439,36 @@ On the education front, I've continued with my Khan Academy lessons on Statistic
 **Link(s) to work**
 1. [Tic-tac-toe (main repo)](https://github.com/jaredcaraway/tictactoe)
 2. [Today's commit](https://github.com/jaredcaraway/tictactoe/commit/7c3f2bd231612037f318b44e8a695e08edd5cb9c)
+
+### Day 31: September 11, 2017, Monday
+
+**Today's Progress**: I started working on my first major refactoring project - drastically modifying Chicken vs. Egg! to meet PyLint's standards (the best I can, at least). This ranges from removing trailing whitespaces to breaking too-long lines to renaming variables to make them more Pythonic. I started by moving the main guts of the program into a main function, and this threw up close to 80 errors and warnings(!).
+
+When I was writing the game, I was more focused on learning how to use Pygame and simply *getting it working*. I was under no impression that I was following best practices. Going through these errors shows me the extent to which I was ignorant of best practices (and I say that strictly factually, not negatively). I'm learning a *lot*, and I'm being forced to rethink my original approach in many cases. Just to name one: I originally had three different color variables storing RGB values as tuples. One of PyLint's warnings advises you when you have too many local variables; to try to reduce this number, I combined the colors into a single dictionary.
+
+I am currently working on a Game and GameField class; I'm trying to compartmentalize the various variables as much as possible. It's taking quite a bit of mental processing power.
+
+For a change of pace, I switched back to Tic-Tac-Toe. I've gotten the game to the point where a windowed display opens and remains open until it is closed via clicking X or, alternatively, hitting Q or escape.
+
+**Thoughts**: Refactoring makes me go cross-eyed. I'd be lost without Git.
+
+**Link(s) to work**
+1. [Tic-tac-toe (main repo)](https://github.com/jaredcaraway/tictactoe)
+
+### Day 32: September 12, 2017, Tuesday
+
+**Today's Progress**: After over three months of searching, I've finally found another full-time job (not in the development field...yet). I start Thursday; this will drastically reduce the amount of free time I've got for coding, but I'll still make sure to get in at least an hour a day if at all possible. I really enjoy it. Also, I did my coding duties yesterday, but I was too lazy to publish and tweet the log... so I'm posting my logs for both yesterday and today as though I didn't miss anything.
+
+I continued working on my Tic-Tac-Toe game today. I have now changed the background color to white and added in lines, neither of which were particularly difficult. I've also added a red selector box (an outline within a cell) to indicate which square the user is currently focused on. I now need to implement a function that draws the player's letter. As it stands currently, the so-called "selector" is hard-coded and cannot be moved. I just need to figure out how to make it work mathematically so I can easily shift it from square to square in response to the user's keypresses. My ultimate goal is to make it possible for the user to define a field size larger than the standard 3x3 grid (and possibly even a rectangular shape).
+
+As I got deeper into the code, I realized I should probably rethink my approach, because it was already starting to get tangled. When I started, I had a main function in which I instantiated the various objects, including Pygame and the game board. This made it awkward to get the various class instances to recognize one another for various functions, and I also found that there were a number of variables and data structures which didn't fit neatly into one class or another.
+
+So I checked out my master branch, made a separate branch off of that, and took a shot at creating a Game class. What's useful about the Game class is that it includes instances of the necessary game objects. Also, upon instantiating a Game object, I can run things like pygame.init() and keep the main function clean. I got it running again on a basic level (as mentioned a few paragraphs up); next, I'm not sure whether I'll continue developing the current feature branch I'm working on, or just abandon it and start from scratch using a new branch based off of my currently good master branch. I don't think it would take much more work to restart the feature development, and it may make for a cleaner process. I'll report back.
+
+Separately, I learned that the underscore character in Python terminal is used to return the last result. I often use IDLE as a calculator, and sometimes I find that I'd like to save the last result into a variable. This is exactly the way I can do that. Nice.
+
+**Thoughts**: I'm pleased with the progress on Tic-Tac-Toe so far. I haven't experienced too many hang-ups yet. A third of the way into this challenge, I can already tell that my code structure is improving. I Google a lot to find answers to smaller, individual pieces, but I'm starting to independently think up better ways to structure my code so that it makes more sense and is easier to write as I flesh my ideas out. I still need to finish refactoring Chicken vs. Egg!, and I haven't really been closely looking at PyLint on this current project...but I will.
+
+**Link(s) to work**
+1. [Tic-tac-toe (main repo)](https://github.com/jaredcaraway/tictactoe)
+2. [Today's commit](https://github.com/jaredcaraway/tictactoe/commit/7c3f2bd231612037f318b44e8a695e08edd5cb9c)
