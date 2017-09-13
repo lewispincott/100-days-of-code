@@ -471,4 +471,4 @@ Separately, I learned that the underscore character in Python terminal is used t
 
 **Link(s) to work**
 1. [Tic-tac-toe (main repo)](https://github.com/jaredcaraway/tictactoe)
-2. [Today's commit](https://github.com/jaredcaraway/tictactoe/commit/7c3f2bd231612037f318b44e8a695e08edd5cb9c)
+2. [Today's commit](https://github.com/jaredcaraway/tictactoe/commit/580b6b72c25ce7e483ecbbf44b74931ac0d14d23)
