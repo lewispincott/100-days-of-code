@@ -488,3 +488,18 @@ Correcting my code to fall in line with PyLint's standards has also led me to an
 **Link(s) to work**
 1. [Chicken Vs. Egg! (main repo)](https://github.com/jaredcaraway/chicken-vs-egg)
 2. [Today's commit](https://github.com/jaredcaraway/chicken-vs-egg/commit/2893bd6d11f6465b2741b19b0f5f9596092f5ef5)
+
+### Day 34: September 15, 2017, Friday
+
+**Today's Progress**: I skipped another day yesterday. I didn't get much sleep the night before my first day back on the job, and I was exhausted all day. I couldn't muster up the energy to sit at my computer and work on code, or do much of anything, really. I was still exhausted today, too (even though I got a little more sleep last night), but it's Friday, and I can't let myself go dormant. If I stop for too long, there's a chance I'll lose momentum and stop for good. I don't want that to happen.
+
+I "finished" refactoring my code today for Chicken vs. Egg! I'm not actually finished, of course, because there are still several features I need to work back in (I started from a branch that was behind the most-developed one). I actually got a strange pleasure from going through and reworking my code. It feels a lot cleaner. I ran into several snags which, while I was able to ultimately solve, I'm still not sure I've fully resolved. The main issue is how to access the Game properties field\_width and field\_height from the Chicken and Egg classes. I got the code to work by recalculating these properties within each of the classes themselves. I feel like the alternative would have been to extend the Game class for the purpose of exposing those properties, and that was just overkill. I am probably wrong, though, and at some point in my coding journey I'll figure out the proper way to do it. I don't think my architecture was necessarily wrong.
+
+My code is definitely much stronger now than it was when I started out making this game. I've been working on multiple monitors since I set up my desk, so I reverted from fullscreen to a windowed display. The problem is that when Pygame gets the screen dimensions, it considers the entire width of *both* monitors. The playing field thus becomes doublewide, and it just doesn't work for this game. I have yet to find a feasible solution to this issue. Until that point, I'll just keep the game windowed (and reduce the chicken size and egg speed) to get the performance I want, even if it's not ultimately ideal.
+
+I'm worn out. I am going to bed now.
+
+**Thoughts**: In some ways, refactoring isn't as exciting as starting a new project. In other ways, it's exciting to tighten up my old code. The visual performance seems smoother; I haven't closely compared, but something about how I am updating and rendering the code now removes a previous visual glitch that made the chicken lag behind a bit, leaving something of a "ghost" on the screen when moving. Maybe it's the placebo effect of having neater, more thought-out code structure, maybe there's a real performance improvement; either way, it really does feel smoother. After comparing the two files with Github's built-in compare (add /compare to the base project URL on Github), I learned I could merge the two. So I went ahead and merged all of my changes back into the master. Nice!
+
+**Link(s) to work**
+1. [Chicken Vs. Egg! (refactored, runs!)](https://github.com/jaredcaraway/chicken-vs-egg/)
