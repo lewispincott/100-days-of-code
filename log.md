@@ -503,3 +503,20 @@ I'm worn out. I am going to bed now.
 
 **Link(s) to work**
 1. [Chicken Vs. Egg! (refactored, runs!)](https://github.com/jaredcaraway/chicken-vs-egg/)
+
+### Day 35: September 16, 2017, Saturday
+
+**Today's Progress**: After logging yesterday, I stayed up a little longer and looked into a little bit of Google's Golang. I found it interesting, and its execution performance is unsurprisingly much faster than Python in benchmark tests of "toy programs" (a term I just learned today). However, it doesn't seem to be as well-suited for programming as C++, which is still fairly widely used in making games. Using Pygame is fairly straightforward, and it's a fairly popular Python package, but I'm afraid that Python is ultimately going to lack the performance I'm looking for in programming.
+
+I initially took a year of C++ in high school and returned briefly to it for less than a semester in college when I switched my major to Computer Science (before getting fed up and switching right back out of it). So, all things considered, I haven't really messed with C++ in over a decade. But today, I decided to set up my development environment for C++ so I could get started learning again.
+
+I read that Eclipse is a decent IDE for C++, and I also discovered that it was already installed on my Ubuntu distro, so I fired it up, took a few additional steps to configure it specifically for C++, and typed in a sample program I found online to ease myself back into the syntax. After compiling (something that had become foreign to me in my dealings with Python and JavaScript), I got the program to run successfully...and I was hooked. So the next step was to identify a halfway decent game development library and start learning how to use it. This led me to the SDL (Simple DirectMedia Layer) library, which I understand to be fairly popular and perhaps a good place to start. There's nothing preventing me from switching to a new library if this doesn't offer what I'm looking for.
+
+Right out the gate, a major difference (aside from compiling and syntax) is the process of adding libraries to the C++ environment (whereas Python's packages install rather neatly via pip install). SDL in particular hung me up for a bit because initially I was under the impression that I needed to download the library's source and compile it myself, which required a sizeable number of dependencies to be installed as a prerequisite. I ultimately learned that I could more easily install the library via apt-get, which was a relief. However, getting the compiler to recognize the installed library was something else altogether. I wasn't sure coming into the C++ world exactly where on my machine the include files were stored, but after Googling I found my answer. This led me to then figuring out how to add in the SDL library to be recognized at compile time. All of this took away time that I could've been programming, but that's standard overhead to be expected when taking on a new language and new set of tools.
+
+So for today, I don't have anything to really share in terms of proper programming; but I've embarked upon a new path, and I'm looking forward to seeing what I can come up with in C++.
+
+**Thoughts**: I wish I'd gotten my IDE up and running more quickly, but the important thing is that I *did* get it up and running, and I'm excited to start working with C++. I do plan on still working with Python occasionally. The simplicity of it is very appealing, and it's probably still going to be my go-to language when it comes to prototyping and throwing together scripts where performance isn't the key consideration.
+
+**Link(s) to work**
+1. None
