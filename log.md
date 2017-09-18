@@ -520,3 +520,22 @@ So for today, I don't have anything to really share in terms of proper programmi
 
 **Link(s) to work**
 1. None
+
+### Day 36: September 17, 2017, Sunday
+
+**Today's Progress**: I continued practicing with SDL in C++ today. I completed the second lesson at [LazyFoo.net](http://lazyfoo.net/tutorials/SDL/index.php), which led me through how to blit an image to a window. I'm still not confident enough in my abilities with this library (or my return to C++) to try my hand at my own program, but it's only a matter of time; it won't be long.
+
+A fairly bigger development came today when I returned to Python. I was thinking about what feature I want to get running next in Chicken vs. Egg!, and I thought about how I could add in sprite animation. I know that a common method is using a sprite sheet, where all of the different stages of a sprite animation are included in a single file, laid out horizontally or in a grid, and you programmatically display slices from that single image file to produce animation in a similar way to how film frames projected onto a screen simulate action and movement.
+
+I remembered reading in the Pygame documentation that, when blitting one surface to another, you could also specify a rectangular area to select within the surface to be blitted - in other words, a slice. I decided to adapt the base game logic from CvE! to set up a little demo. I whipped up a simple 50x250px image in GIMP containing the numbers 1 through 5, all laid out horizontally. My goal was to blit each number to the screen running up to 5, then start over at the beginning in an infinite loop that ended only when the window closed. Since my default FPS in my loop is set to 30, and there are 5 slices of image to display, I wrote logic that moved the frame of reference within the sprite sheet to the right by 50px every 6 frames. I'm sure there's a way to do this with Pygame's built-in Clock, but for the purposes of getting it running, I added a frame counter variable that incremented every frame up until 30 frames, at which point it started back at 1.
+
+![Animation cycling numbers 1 through 5](https://github.com/jaredcaraway/sprite_sheet_test/blob/master/assets/sprite_sheet_test_1.gif)
+
+I ran into a little snag due to an initial misunderstanding of the pygame.surface.blit function parameters. It accepts two mandatory parameters, source and destination surfaces, as well as two optional parameters, area and special flags. I have yet to use special flags, but area is where I tripped up. In my head, the area of the rectangle to be selected from the larger image would be specified by providing the coordinates of the top left corner followed by the coordinates of the bottom right corner. In fact, you only need to supply the coordinates of the upper left corner followed by the width and height of the rectangle. Once I figured this out, my little animation demo worked like a charm.
+
+My next move will be to create a basic actual animation (not using numbers) and scale it up so it's more visible (50x50px is pretty small). Soon after that, I should be able to apply this technique to my game without too much sweat.
+
+**Thoughts**: This is honestly one of the most exciting developments I've achieved since I got back into coding several months ago. I feel like this will be invaluable in my game-making journey. I'm sure there are other, more optimal ways to animate, but I am super proud that I got this method working without having to reference an outside source. I arrived at this through my own thinking and exploration. I'm very happy. Back to work tomorrow!
+
+**Link(s) to work**
+1. [Sprite Sheet Test](https://github.com/jaredcaraway/sprite_sheet_test)
