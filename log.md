@@ -539,3 +539,18 @@ My next move will be to create a basic actual animation (not using numbers) and 
 
 **Link(s) to work**
 1. [Sprite Sheet Test](https://github.com/jaredcaraway/sprite_sheet_test)
+
+### Day 37: September 18, 2017, Monday
+
+**Today's Progress**: On the heels of yesterday's development, I began looking at free assets on [OpenGameArt.org](https://opengameart.org/) that I could put right to use in my game. There's a certain sense of pride with making every bit of it myself, but at some point I have to accept the division of labor and focus on what I'm better at - which is coding over digital drawing. I found a really cool sprite set for a chicken that looks like something out of Angry Birds, [available for free by a user named Bevouliin](https://opengameart.org/content/bevouliin-free-flappy-chicken).
+
+The challenge with this set of assets is that they were provided in multiple different files, not one contiguous sprite sheet. I certainly could have invested some more time to figure out how to make this work, but I prefer the unified sprite sheet approach. I initially opened up GIMP and tried to manually align the images, but quickly learned that this was not the most accurate approach. Remember some of my earlier experimentation with Python's image libraries - actually, one called Python Image Library (PIL) - I Googled how to "stitch" images together programmatically. It turns out that it can be done quite easily.
+
+I copied and very slightly modified a script I found on [StackOverflow](https://stackoverflow.com/questions/10657383/stitching-photos-together) and, with a little tinkering, arrived at a sprite sheet in less than time than if I'd sat there trying to manually adjust each frame. I won't create a repo for this one since it wasn't really my own handiwork, but I'll count it toward my coding time today, at least.
+
+I played around with adding the new chicken into Chicken vs. Egg!, but I didn't get it working; I'm not sure whether to use set_clip or subsurface on the Surface object. I'll have to return to this tomorrow.
+
+**Thoughts**: I was hoping to make more progress, but I am happy to get some more experience with PIL. Now I know how to programatically combine images on a basic level. This seems like a pretty powerful library, and I'm sure I'll come back to it in the future.
+
+**Link(s) to work**
+1. None today.
