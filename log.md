@@ -554,3 +554,18 @@ I played around with adding the new chicken into Chicken vs. Egg!, but I didn't 
 
 **Link(s) to work**
 1. None today.
+
+### Day 38: September 19, 2017, Tuesday
+
+**Today's Progress**: I didn't make much progress today, unfortunately - but that's part of the game. The Pygame, in this case.
+
+I ran into an issue which I have yet to diagnose - my PNG sprite sheet, which has a transparent background, is blitting with a black rather than a transparent background. I didn't have this issue using my previous chicken PNG, but I also wasn't trying to blit a smaller rectangle from that image.
+
+I switched back to my master branch, and I found out that I had apparently committed changes to the master rather than the feature branch. I rewound my changes by a few commits, finding that I'd then undone my .gitignore file (which I added to exclude the original assets used in the sprite sheet as well as the utility script used to stitch them together). I added the .gitignore back and ran the utility script again to regenerate the sprite sheet...in the master branch, rather than the feature. So I decided to give myself some time away from the project to untangle my brain and think on it a bit.
+
+I switched over to a new project where I'm trying to read in a JSON file from Trello and manipulate it with the ultimate goal of presenting a custom report based on the file (which is one of my Trello boards). I've only just started working on it, and I'm trying to figure out how to work it...so not much progress on that front, either. I'd like to stay up working more, but I also need to get some sleep so I'm not falling asleep at work. I'll be back tomorrow to make some more progress.
+
+**Thoughts**: Bit of a disappointing day in coding, but that's alright. Once I figure out how to get over my current hurdles, it'll be so satisfying. As a side note, if anybody happens to be reading this and is interested in working collaboratively on a project, shoot me a message on Twitter or email me at jared.caraway@gmail.com. I'd like to get some experience coding with someone else, and I haven't yet found an open source project that isn't above my current skillset (though it's just a matter of time).
+
+**Link(s) to work**
+1. None today.
