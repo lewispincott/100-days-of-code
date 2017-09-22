@@ -583,4 +583,4 @@ In another step forward, I added a README and an MIT license to the repo. I was 
 **Thoughts**: After a good night's rest, I feel good about today. I definitely made progress, small though it may be, and that makes me happy. It means I'm moving forward. I'm not stagnating. This is good. I pushed the updated code to my Github repo, linked below.
 
 **Link(s) to work**
-1. None today.
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
