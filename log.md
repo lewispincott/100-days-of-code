@@ -569,3 +569,18 @@ I switched over to a new project where I'm trying to read in a JSON file from Tr
 
 **Link(s) to work**
 1. None today.
+
+### Day 39: September 21, 2017, Thursday
+
+**Today's Progress**: I took a mental health day yesterday to catch up on my sleep. I've been exhausted at work, and working on nonpaying code yesterday would have been detrimental to my performance at my paying day job. So I just relaxed and got to bed early. But I'm back today!
+
+I purchased a cheap domain and reinstated my hosting account with Nixihost with the aim of playing around with more web technology. I've been focusing a lot on "software" development with my little scripts (and games), but I do want to build my skills back up in the web development field. That won't happen tonight, because my time as a working man is now severely limited. However...
+
+I figured out what was causing my previous issue with losing transparency in Pygame. I fixed the issue by adding in a parameter when initializing my target surface with a flag that specified the surface needed alpha transparency. So I've now figured out how to blit a chunk (animation frame) of my sprite sheet to the screen in such a fashion that it looks like a single PNG with a transparent background (the way it was before, when I was using my own image). The next step will be to animate it. I don't think I'm far from making that work.
+
+In another step forward, I added a README and an MIT license to the repo. I was pretty uncertain about what all to include in the README, so I just gave it my best shot. I figured I needed to just start somewhere, and I can improve it incrementally over time.
+
+**Thoughts**: After a good night's rest, I feel good about today. I definitely made progress, small though it may be, and that makes me happy. It means I'm moving forward. I'm not stagnating. This is good. I pushed the updated code to my Github repo, linked below.
+
+**Link(s) to work**
+1. None today.
