@@ -584,3 +584,16 @@ In another step forward, I added a README and an MIT license to the repo. I was 
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 40: September 22, 2017, Friday
+
+**Today's Progress**: I took another day off yesterday. Balancing work life and home life and learning development skills is surprisingly challenging. I don't have a bottomless well of energy like I used to...but I've still go the determination to press forward as time allows.
+
+I got sprite animation working on a basic level, but it's sketchy and buggy. The method I got to work still displays a mysterious second frame underneath the animation, and there's a thin border around the sprite. I've got to do some debugging to get it cleaned up, but I do, one a basic level, have working sprite animation. And it looks pretty cool, even in its broken state.
+
+I've made a Trello board to start organizing the features I want to incorporate. I think it'll be good for me to brainstorm and get all the ideas out of my head and onto "paper," so to speak.
+
+**Thoughts**: Feeling accomplished and also anxious to get the issues ironed out of my player sprite animation. Maybe tomorrow I can get to the bottom of it.
+
+**Link(s) to work**
+1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
