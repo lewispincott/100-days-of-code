@@ -597,3 +597,20 @@ I've made a Trello board to start organizing the features I want to incorporate.
 
 **Link(s) to work**
 1. [Chicken vs. Egg!](https://github.com/jaredcaraway/chicken-vs-egg)
+
+### Day 41: September 24, 2017, Sunday
+
+**Today's Progress**: I've given myself license to take a day or so off from logging whenever I need to, but I'm still working on at least a little bit of code every day. I've got to strike a balance between life outside coding and my goal to eventually work my way up to my goal of making a living off of coding. Whether I log daily or not, I'm still constantly thinking about coding or doing something to advance my goal.
+
+I've made progress on my sprite animation. Previously, it was somewhat working, but the animation layer was displaying on top of the previous frame beneath it, and it looked messy. I used a technique called "dirty rects" to, in between animation frames, get a sample of the background, blit it to the location on the screen where the sprite goes, and then blit the sprite there - effectively "erasing" the previous sprite. I had a hiccup at first where I copied the dirty rect, then flipped the Surface containing the sprite drawn onto the dirty rect, and that resulted in a chunk of background behind the sprite getting reversed. To fix this, I simply blitted the dirty rect to the screen *before* flipping the sprite, and it now seems to work more less the way I want it to. I still don't have the animation running *exactly* the way I want (I want to cycle to the end of the sprite sheet, then cycle backwards frame by frame until I hit the beginning, starting again), but this is a great start.
+
+One issue now is that the dirty rect draws over the egg sprite as it moves into the dirty rect's space on the field, but I feel like that won't be too difficult to fix. It's on my to-do list.
+
+In other news, I've made a friend through Twitter with whom I'll be collaborating on some simple projects remotely for experience with working collaboratively. He also advised me of a platform called Chingu, which pulls people together to collaborate remotely on projects, and I applied to be part of a back-end development team today. I'm really looking forward to working on code with other people and sharing ideas and experience. I think it's a key component that's been missing so far in my coding, and I can see it being a very valuable skill to have (especially since, once I finally achieve my goal of working as a professional developer, I will absolutely *have* to work collaboratively).
+
+I'm also considering a structured education (vs. my current method of self-education) to help advance my skills. Yes, all the information I could possibly need to get a job is available to me for free, but the difficult part is disciplining myself and focusing. I think I would benefit from paying somebody else to help provide that structure, which would in turn force me to to focus and discipline myself. Bloc looks great, but it's substantially expensive; I think I'm going to try out the Udacity front-end nanodegree plus program. It's a good chunk of money, but you pay per month and work at your own pace, and they offer a money-back guarantee if you don't end up with a job. I've still got a bit of time before I have the funds available to make any final decisions, but I am considering a couple of different options currently.
+
+**Thoughts**: I feel pretty great about my progress. I am so anxious to further my progress, sometimes it's hard for me to shut down at the end of the day. But I'm doing what I love, and I feel pretty confident that if I continue doing what I'm doing, it'll lead to a career doing what I truly want to do: working with computers and making them do (more or less) what I want.
+
+**Link(s) to work**
+1. [Chicken vs. Egg! (current working branch)](https://github.com/jaredcaraway/chicken-vs-egg/tree/animate-sprite)
