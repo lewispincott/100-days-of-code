@@ -614,3 +614,18 @@ I'm also considering a structured education (vs. my current method of self-educa
 
 **Link(s) to work**
 1. [Chicken vs. Egg! (current working branch)](https://github.com/jaredcaraway/chicken-vs-egg/tree/animate-sprite)
+
+### Day 42: September 26, 2017, Tuesday
+
+**Today's Progress**: Through the magic of Twitter, I befriended a guy on the other side of the world and began collaborating with him remotely. Until now, I've been coding alone and in a vacuum. It gets lonely working alone, and the necessity of doing everything myself gets limiting. Since I want to become a professional developer, I also knew I would need to learn how to collaborate on a project sooner rather than later. So I tweeted out to my followers saying I'd like to work with someone, and I got a response from someone named Darshan in India.
+
+We spent a few days talking before setting up a Slack channel and a Trello board to communicate, brainstorm, and organize our ideas. He is currently learning front-end dev skills through freeCodeCamp, and I'm more interesting in back-end stuff, so we brainstormed a project that would play to both of our skills. Ultimately, we came up with a tried and tested calculator concept.
+
+Darshan set up the structure of the calculator and I was left with the task of wiring it all up. That's what I spent hours doing today. For a fairly straightforward app, it's surprisingly complex to get running like a real calculator. I've been working in almost exclusively Python for a month or two, so my JavaScript skills have gotten a bit rusty. But I'm picking them back up, and I'm making progress.
+
+At this point, I've gotten it to where it recognizes mouse clicks on the buttons and displays them in the calculator's designated output display area. I'll spare you all the boring explanation, but if you're interested, you can check out the shitty first draft of my logic in the repo. Even though this is a basic app, I am hooked. I am anxious to keep working on it until it's working (more or less) perfectly and we can put some polish on it. We're thinking about adding in CSS zen garden-style functionality where you can apply different skins. It's awesome practice, and I'm really enjoying working with someone. I could definitely see myself doing this for a day job (though I imagine the stress of that will be on a whole different level).
+
+**Thoughts**: I am truly excited about this project. It's not that I've gotten bored with coding by any means, but finding someone to work with and hold me accountable has really given me a second wind. I look forward to getting some rest and returning to it after work tomorrow.
+
+**Link(s) to work**
+1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
