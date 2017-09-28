@@ -629,3 +629,14 @@ At this point, I've gotten it to where it recognizes mouse clicks on the buttons
 
 **Link(s) to work**
 1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
+
+### Day 43: September 27, 2017, Wednesday
+
+**Today's Progress**: Made some more progress on the calculator app today. I figured out how to get the page to recognize any general keypress, then honed in on the specific keys I'm targeting. I adapted the main function I was using to process button clicks to now recognize if it was being passed a keypress event, read in the value of that key, and was able to maintain a bulk of the previous logic. I'm finding that I've really taken for granted what all goes into something as seemingly simple as not duplicating a decimal on the display when it's pressed more than once (which was actually pretty easy to implement, but didn't work the way I probably would've expected by default). Not that this project is necessarily difficult, but it is much more challenging and complex that I anticipated at the outset. But I love being challenged, so that's a great thing. I'm going to be so proud of our work once this is done. It's a big relief having Darshan on my team to help with the front-end stuff, too.
+
+The logic inside of my button/keypress handling function is a series of if/else statements right now, and it's pretty nasty, but I'm considering it Shitty First Code and running with it until I inevitably stumble across the smarter and sexier way to get it done. I have no doubt that there's a superior method, but right now I'm settling for what works and is accessible to me now. I suspect it may have something to do with key/value pairs? I'm not certain, but I'll look for it once I get to the point of refining and refactoring.
+
+**Thoughts**: I feel great about the progress I made today. Now I'm passing the ball to Darshan on the other side of the world to work on while I sleep and then go to work. It's an interesting dynamic. I'm definitely anxious to wrap this project up and see what's next. At some point soon, I'm going to take time to return to Chicken vs. Egg! to chip away at it some more, too. I want to make sure I keep my Python skills on point. Check our dev branch below if you're interested in checking out what code was added today.
+
+**Link(s) to work**
+1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
