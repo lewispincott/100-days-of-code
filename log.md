@@ -640,3 +640,23 @@ The logic inside of my button/keypress handling function is a series of if/else 
 
 **Link(s) to work**
 1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
+
+### Day 44: September 28, 2017, Thursday
+
+**Today's Progress**: For a bit of a change of pace, I started the JavaScript track through Exercism.io (which has a neat command line interface and makes use of the Jasmine test module). There are nearly 80 challenges, starting with the classic "Hello, World!" basics. What I really like is the inclusion of testing from the ground level. I have not incorporated any degree of automated testing in my code to date, and I figure it will benefit me to learn before I get too deep into coding and too fixed in my habits.
+
+I asked Darshan to test out the current version of the calculator to see if he could catch any bugs I wasn't already aware of. He found one and submitted an issue via our repo, which I was grateful for. Since we're still small-time and not yet working on projects of interest to the general public, it's unlikely that we'll get external issues submitted - so it was great practice for him to submit one on our own project.
+
+I learned a couple of things today. First, I need to start getting in the habit of pulling from the remote to make sure I'm syncing up my code with the most recent version on the server. I got a couple of annoying error messages when I tried to push and had to spend a few minutes merging the remote branches with my local repo before I was finally able to push my code. Second, I learned that [it is possible to close an open issue](https://help.github.com/articles/closing-issues-using-keywords/) by including keywords like "fix" or "fixes" or "closes" with a reference to the issue by number, "#XXX". I only found this out after I had already pushed my commit, which did reference the issue number but didn't use one of the magic words. So I had to close it manually. No big deal at all, and I learned something new in the process.
+
+I think I'm going to start making more liberal use of extended commit messages when I see the need - I've until now tried to constrain my commit messages to one line, but in some cases that leads to me oversimplifying what I've done to meet character constraints a la Twitter. From now on, I'll include both a subject line and a more fleshed out description if I feel my commit warrants extended explanation.
+
+For our next project, we've decided to take a shot at making a fish tank simulation in the browser. I suggested the idea when thinking back on a case study we had in my high school AP Computer Science class, back when I was learning C++. At that time, I was scared off by OOP and mainly cheated off my classmates when it came to the case study, so I didn't learn anything from it. Darshan focused on the front-end aspect of this project, but he's interested in honing his JavaScript abilities, so that's something where we can both chip away at the JS.
+
+I started work on the hardest part of the calculator which is...making it calculate. You have to take into account the state of the calculator to an extent I didn't really consider. It's challenging, but all I need is time to work through the bugs. I have pushed my current development branch (make-it-calculate) in case you're interested in seeing where the code is at currently. That said, it is extremely buggy and only partially works, but is mainly broken. I'm taking a brief trip out of town this weekend, so I will be offline for a day or two and will get right back to it once I return. I can't wait to get it calculating.
+
+**Thoughts**: My progress today was not massive or voluminous, but I still feel it was substantial. I learned several valuable things which I can carry forward with me in my coding career, and that's extremely valuable.
+
+**Link(s) to work**
+1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
+2. [Simple Calculator (broken make-it-calculate branch)](https://github.com/juzJar/SimpleCalculator/tree/make-it-calculate)
