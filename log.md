@@ -660,3 +660,18 @@ I started work on the hardest part of the calculator which is...making it calcul
 **Link(s) to work**
 1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
 2. [Simple Calculator (broken make-it-calculate branch)](https://github.com/juzJar/SimpleCalculator/tree/make-it-calculate)
+
+### Day 45: October 1, 2017, Sunday
+
+**Today's Progress**: I am back from a two-day vacation, and I'm back on my coding game. I really see the value in coding daily; every day I put between myself and my code makes it that much harder to pick back up where I left off. It removes me from the mindset I was in, so I find myself having to review my code to try to figure out what I was thinking.
+
+I am working on the calculator again tonight. I think my approach to this simple calculator was a bit more complex than necessary. I was developing it in such a way that it was evaluating the expression at every step - basically, only one term or operator was ever displayed onscreen at a time. Instead, I'm going to let the user enter all terms/operators and display them simultaneously until the enter/equals key is hit, at which point the expression will then be evaluated. I think I'll store the expression as a string, then evaluate it via JavaScript's eval() function.
+
+On the plus side, my original approach led me to discover a technique I hadn't used before. I was originally writing a separate function for each operation (add(), subtract(), etc.). This led me to wonder if there was a way to make an object with a key representing the operator's symbol and a value as a function. In fact, yes, there was. So rather than using an if statement for each operator, I simply referenced the operator's key within the object, which returned the function I needed, and followed that by a pair of parentheses to run it. Pretty neat.
+
+Darshan added a night mode skin to the calculator with buttons to switch between the two modes. Calculating is still not possible, but you can still click below to see his progress. I think we'll be finished with this project by week's end.
+
+**Thoughts**: I made some progress today, but it turned out I was heading in the wrong direction. That's okay, though - it's all part of the learning process, and I think I know the right general direction I need to head in now. And I *did* learn a new programming concept in the process, so all was certainly not lost. So all things considered, I feel pretty good about my work today.
+
+**Link(s) to work**
+1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
