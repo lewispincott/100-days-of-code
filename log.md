@@ -684,9 +684,9 @@ Luckily, my thinking led me in the right direction. I've got it to the point whe
 
 One major bug I need to figure out how to fix is how to prevent Firefox's Quick Find feature from firing when I hit the forward slash key on the number pad. I've never used it, but it's enabled by default...and it messes with the functionality or our app. I think I can write some code that only reads the keydown and uses a function called preventDefault(), but I'll have to read up a bit more to understand exactly how it works. I also need to add in functionality for continuing to calculate after the expression is evaluated and the result displayed onscreen. But I'm getting close. Today was a great day for progress. I may have this finished tomorrow, hopefully no later than another two days from now.
 
-I didn't push my work to the dev branch, but I did push the make-it-calculate branch. Once it's all running smoothly, I'll probably merge my current branch to dev, delete this branch, merge dev to master, and leave dev open for future work should we want to tweak or add anything.
+I didn't push my work to the dev branch, but I did push the add-expression branch. Once it's all running smoothly, I'll probably merge my current branch to dev, delete this branch, merge dev to master, and leave dev open for future work should we want to tweak or add anything.
 
 **Thoughts**: I'm very pleased with today's progress; sometimes you need to delete and rethink in order to move forward. I look forward to getting back on the problem tomorrow.
 
 **Link(s) to work**
-1. [Simple Calculator (make-it-calculate branch)](https://github.com/juzJar/SimpleCalculator/tree/make-it-calculate)
+1. [Simple Calculator (add-expression branch)](https://github.com/juzJar/SimpleCalculator/tree/add-expression)
