@@ -675,3 +675,18 @@ Darshan added a night mode skin to the calculator with buttons to switch between
 
 **Link(s) to work**
 1. [Simple Calculator (dev branch)](https://github.com/juzJar/SimpleCalculator/tree/dev)
+
+### Day 46: October 2, 2017, Monday
+
+**Today's Progress**: I tore the logical guts of my code apart in our calculator app. It's hard to do, in a way, but being able to create a Git branch makes it a lot easier - knowing that I can just switch back to the last known "working" version if it all goes wrong.
+
+Luckily, my thinking led me in the right direction. I've got it to the point where I can enter an expression and evaluate it. I've figured out how to detect when a decimal has been entered and prevent any additional decimals from being entered in the current term. I also figured out how to put spaces in between terms for readability and properly "backspace" using the slice() function depending on whether you're backspacing over a number in a term or an operator - if you backspace the last number in a term and get to a space, the next backspace will remove both spaces surrounding the operator as well as the operator itself.
+
+One major bug I need to figure out how to fix is how to prevent Firefox's Quick Find feature from firing when I hit the forward slash key on the number pad. I've never used it, but it's enabled by default...and it messes with the functionality or our app. I think I can write some code that only reads the keydown and uses a function called preventDefault(), but I'll have to read up a bit more to understand exactly how it works. I also need to add in functionality for continuing to calculate after the expression is evaluated and the result displayed onscreen. But I'm getting close. Today was a great day for progress. I may have this finished tomorrow, hopefully no later than another two days from now.
+
+I didn't push my work to the dev branch, but I did push the make-it-calculate branch. Once it's all running smoothly, I'll probably merge my current branch to dev, delete this branch, merge dev to master, and leave dev open for future work should we want to tweak or add anything.
+
+**Thoughts**: I'm very pleased with today's progress; sometimes you need to delete and rethink in order to move forward. I look forward to getting back on the problem tomorrow.
+
+**Link(s) to work**
+1. [Simple Calculator (make-it-calculate branch)](https://github.com/juzJar/SimpleCalculator/tree/make-it-calculate)
