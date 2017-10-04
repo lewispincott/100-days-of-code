@@ -690,3 +690,14 @@ I didn't push my work to the dev branch, but I did push the add-expression branc
 
 **Link(s) to work**
 1. [Simple Calculator (add-expression branch)](https://github.com/juzJar/SimpleCalculator/tree/add-expression)
+
+### Day 47: October 3, 2017, Tuesday
+
+**Today's Progress**: I'm still in the process of tearing up my code and rewriting it in a quest to find the best method to get it working. This time, instead of storing everything as a pure string, I am trying out storing each operand and operator as a separate entry in an array. I'm hoping this will help me sort out several bugs that I've come across in testing out the calculator. Just to give a single example, I've got conditions that are able to identify when a decimal has been entered during the initial input phase, but upon backspacing, the flag is reset and it's possible to enter an improper number of decimal points.
+
+While I'm still working on my end of that particular problem, I've told Darshan that I think we should go ahead and get started on our next collaborative project, which will be a website. A website for a fake pizza restaurant. This ought to be interesting, especially since Darshan told me he's only eaten pizza on one occasion! I think this will be a great exercise in pretending to do work for a client and trying to make it the best we possibly can. Having someone to split the work with is such a huge relief.
+
+**Thoughts**: I'm a little frustrated that I still have not closed the chapter on this calculator problem, but I'm encouraged that I'm still thinking up solutions and approaches. It really seems to be true that you do more thinking than coding in development.
+
+**Link(s) to work**
+1. None today.
