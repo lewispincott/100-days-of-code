@@ -701,3 +701,16 @@ While I'm still working on my end of that particular problem, I've told Darshan 
 
 **Link(s) to work**
 1. None today.
+
+### Day 48: October 5, 2017, Wednesday
+
+**Today's Progress**: I gave myself yesterday off due to a cold I've been fighting. I just needed to relax and get some rest, so I did. I am still fighting off the cold, but I couldn't stay away from coding for another day.
+
+The itch.io Game Jam is starting tonight at 11:59 PM. It runs until Sunday, during which period I'm going to try my hand at creating a game. I honestly don't think I have enough free time or the requisite skills yet to pull something together by myself in such a short period of time, but I'd like to at least try and see how far I can get. I only have experience with Pygame so far, and I've had my eye on Phaser - which is a lot more modern, full-featured, and works on a combination of HTML and JavaScript - so I've gone through a tutorial to try to familiarize myself with that framework. My goal for this challenge isn't necessarily to complete a game, just to get as far as I can.
+
+I spent most of my time tonight reading through the HTML5 Boilerplate documentation to understand why the reason for the inclusion of the various components in the boilerplate. I plan on using this as the baseline for the fake pizza restaurant website Darshan and I are going to work on as our next project, and he will probably use Bootstrap on top of that. I didn't get around to doing any actual coding, but all in due time. I still worked toward advancing my development knowledge tonight, and for that I am content.
+
+**Thoughts**: I can't wait to not be sick again so I'm firing on all cylinders.
+
+**Link(s) to work**
+1. None today.
