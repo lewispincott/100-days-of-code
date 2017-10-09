@@ -714,3 +714,16 @@ I spent most of my time tonight reading through the HTML5 Boilerplate documentat
 
 **Link(s) to work**
 1. None today.
+
+### Day 49: October 8, 2017, Sunday
+
+**Today's Progress**: Man, I've really been thrown off my groove this past week. I'm still getting over being sick, and then Friday and Saturday I was dealing with garage sale stuff. I made some good pocket change, so it was all worth it, but it took the time and energy I otherwise would've needed to work on code-related stuff. That's alright, though; that's just life. I'm not dissuaded in the slightest. Developing is ultimately what I want to do for a living, so I'm not going to stop returning to the computer when I can.
+
+After talking to one of my girlfriend's relatives yesterday, he reminded me of an online learning website called Udemy which I'd used years ago when trying to learn logo design. I mentioned that I was considering taking some courses or doing a bootcamp to help beef up my development skills, and he suggested I check the site out again. Sure enough, when I logged in the first thing I found was a web development bootcamp course offered by Colt Steele (a guy I've heard mentioned in a podcase I listen to). I signed up for a new account (using a variation of my email address) and got a steep discount: $10. The course promises to take me from beginner to full-fledged web developer, with a focus on JavaScript and NodeJS. There's a *lot* of content, and I like Colt's teaching style so far. On his advice, I switched back to Sublime Text. I had been really enjoying Visual Studio Code, but I've now fallen right back in love with Sublime. It's not technically free, as the developers expect you to pay if you're an ethical person, but the full range of features are available by default. I do plan to send them my money when I have a little more to spare. It's an unbelievably good editor, especially with some choice plugins installed to extend the base functionality.
+
+I haven't done any coding today, though. I've been going through the course, starting with the very first lesson and traversing through a bunch of stuff I already know, but I expect it won't be long until I get to the information that's new to me. I don't want to just assume that there's nothing new in these early lessons; in fact, though the content is all familiar to me, I've learned even something as simple as using this awesome editor. Nothing at all against VS Code, as I'm sure I'll come back to it again in the future, but I'm most likely going to be doing the bulk of my work now in Sublime.
+
+**Thoughts**: I feel a little guilty having not coded in several days, but I am definitely still advancing my cause. I haven't given up on developing. I will try to at least work on a coding problem tomorrow to keep my skills fresh.
+
+**Link(s) to work**
+1. None today.
