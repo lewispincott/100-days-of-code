@@ -727,3 +727,16 @@ I haven't done any coding today, though. I've been going through the course, sta
 
 **Link(s) to work**
 1. None today.
+
+### Day 50: October 9, 2017, Monday
+
+**Today's Progress**: Today, I didn't do much - if anything - in the way of coding. But what I did was a substantial amount of planning and legwork on our fake pizza portfolio website. I am a big fan of [Lynne Fisher's single-div CSS drawings](http://a.singlediv.com/), and in looking over them again today I noticed she had a really cool pizza. I tweeted her and asked if we could use it in our portfolio project, and she said go for it. Nice! Ultimately, I'd like for us to be producing our own resources, but I don't know how feasible it is to make everything from scratch when we're just getting some practice with the mechanics of even putting a site together. I don't want to get overwhelmed, because there're a lot of moving parts in a good, solid website. So most of the non-code resources are going to be Creative Commons licensed or content used by other creators, with permission of course.
+
+I also found some great pizza photos on Pixabay. When it comes to something like that, my only real option would be to order some pizza and take a picture with my camera phone. In that case especially, it makes more sense to just use some photos that somebody with nice gear and photographic expertise produced. The whole point of this project is to show that we can combine components. I don't think it's crucial at this point to bake everything from scratch, so to speak.
+
+I drew up a basic sitemap, which was easy since there aren't a whole lot of pages in our basic site. I also did some other stuff, but I'm too tired to keep typing out this log. I need to do a couple of bootcamp lessons before I sleep.
+
+**Thoughts**: I didn't really code today, but I did advance my goal of improving as a developer...and that's what this is all for, in the end. I hope I can find some time to code tomorrow, but my time lately has been extremely limited and I have to kind of prioritize what tasks I partake in. I didn't want to keep Darshan hanging any longer on this website project, so I went ahead and started with the planning and asset locating process. I miss writing code, but I'll be doing it again soon enough. And on a super positive note, I'm halfway through this challenge!
+
+**Link(s) to work**
+1. None today.
