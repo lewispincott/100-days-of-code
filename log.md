@@ -740,3 +740,23 @@ I drew up a basic sitemap, which was easy since there aren't a whole lot of page
 
 **Link(s) to work**
 1. None today.
+
+### Day 51: October 10, 2017, Tuesday
+
+**Today's Progress**: I decided to focus more on Colt Steele's bootcamp today. I'm 30+ lessons in now (still *just* scratching the surface), and I'm to the point where he's teaching forms and inputs. This isn't brand new knowledge to me, but it's an area I've considerably little experience in.
+
+And, thankfully, I got to work on a more substantial project - building a basic registration form (albeit one that doesn't submit). Not a complicated task by any means, but deceptively code intensive. I was required to use a variety of inputs, including text, radio buttons, a password field, an email field, and dropdowns (all with labels). I learned how to tie a label to an input via the for attribute, how to include placeholder text, how to use the required attribute to denote a required field, and how to set min and max password lengths. This all required far more code than I'd suspected, but it still wasn't too challenging overall.
+
+One thing I got hung up on was how to tie a label to three different dropdowns. I know I can use fieldset, but we haven't gotten there yet. So I just made the label unassociated, which I think is incorrect, but I'll learn the solution in the next video (and probably kick myself).
+
+I also watched a few dev lectures today. I am very interested in playing around with SVG animations now thanks to the amazing Sarah Drasner, and as a fan of the Hanselminutes podcast already, I've now got even more respect for Scott Hanselman. And I discovered that Wes Bos has a podcast, so I'm most likely not listening to music again for the forseeable future. I listen to podcasts on the way to work, on the way home, and on my lunch break. I even listened a little bit today in my office on a BlueTooth speaker. CodeNewbies is one of my favorites, and I'm pretty sure I'm going to end up listening to them all.
+
+On a final note, I took advantage of Udemy's deep discounts (which are apparently going away soon) to purchase courses on both React/Redux & Angular. I looked at a few job postings on Dice today in my area, and I know for sure that Angular will be a hireable skill as a Junior Developer (and, I'm sure, so will React). I was tempted to get a Node course, but we're going to be covering that heavily in my current course, and once I finally go back and complete the freeCodeCamp course, I'll get a dose of it there, as well.
+
+Still no links to my work, since I still don't think the exercises I'm doing are worth making repos over. Although I do suppose I could just put them into a new CodePen...maybe I'll do that for my next log.
+
+**Thoughts**: Still not coding as much as I'd like, but I feel good about making progress in my Udemy bootcamp. I do feel good in a general sense, really. I think every day about becoming a developer. At this point, I'd say it's my dream. I'm fixated on my goal of becoming a paid, professional programmer. I'll do whatever it takes to get there. I'm dedicated.
+
+**Link(s) to work**
+1. None today.
+
