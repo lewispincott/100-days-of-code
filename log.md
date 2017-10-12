@@ -760,3 +760,20 @@ Still no links to my work, since I still don't think the exercises I'm doing are
 **Link(s) to work**
 1. None today.
 
+### Day 52: October 11, 2017, Wednesday
+
+**Today's Progress**: I've seen Emmet mentioned a number of times previously, but figured it was just some hip tool or JavaScript framework of the moment. In fact, it's an amazingly useful tool (and, yeah, I guess it's pretty hip, too). It allows you to type in code basically in shorthand, and it in turn cranks out fully formed HTML. Seriously, it's amazing. I started playing around with it in Sublime via a package, and I am definitely going to continue using it. It'll save me a *lot* of keystrokes. I just need to learn its particular flavor of markup.
+
+Another new skill I started learning today is the CSS preprocessor, Less. I feel like Sass and Stylus are more well-liked, and Bootstrap 4 has adopted Sass, but the Colt Steele bootcamp (and freeCodeCamp) both use BS3, which uses Less. Darshan and I have the most experience with BS3, so we're going to go ahead and learn Less for now. We will probably pick up Sass at a later date when we start experimenting with BS4.
+
+On the topic of Boostrap, I returned to freeCodeCamp tonight to work more on my portfolio site so I can go ahead and move past that lesson, which I've been stuck on for *months*. One thing I don't like about BS is how damn many classes you've got to work with, and it's pretty code heavy. But I discovered something awesome while playing around with my portfolio in CodePen: they have Emmet enabled *by default*. This is a game-changer right here.
+
+I am up to lecture 44 in my bootcamp course - now covering CSS. A lot of it is still review, but it certainly doesn't hurt to get a refresher in something I haven't been actively using on a regular basis.
+
+Last night before going to sleep, I took a few tests on Toggl's jobs website (as they are currently hiring for several different positions). I did pretty poorly, as expected, on the Ruby and PostgreSQL tests, but I mainly wanted to get an idea of what the content looked like and how I'd do as an outsider to those technologies. However, when I took their customer support test, I scored an 89%...which qualified me for a free T-shirt! Score! I don't think they'll get back to me, since I think they're looking for someone in Europe or Africa or somewhere that isn't the USA. But I'm totally cool with just getting the free shirt.
+
+**Thoughts**: Learned some new things tonight and made more progress. I am happy about that! Still nothing to share, though. I'm mainly in learning mode. The portfolio isn't anything to look at currently, but it will be soon.
+
+**Link(s) to work**
+1. None today.
+
