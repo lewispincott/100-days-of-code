@@ -777,3 +777,18 @@ Last night before going to sleep, I took a few tests on Toggl's jobs website (as
 **Link(s) to work**
 1. None today.
 
+### Day 53: October 12, 2017, Thursday
+
+**Today's Progress**: I'm continuing work on my freeCodeCamp portfolio, working with Bootstrap 3. I admit that the concept behind the BS3 grid system perplexed me a bit at first, but it now seems pretty obvious to me after rereading their documentation and actually resizing my browser window to the various default breakpoints. I was having an issue with the size of my portrait image extending beyond its column(s); I was expecting it to automatically resize to fit within the invisible boundaries. Nope. Again, I referred to documentation, this time for images, and located the class I needed to apply to the image tag to make it responsive. Boom. Works perfectly. I need to learn to **R**ead **T**he **F**ucking **M**anual.
+
+Basically, I spent all night tweaking my portfolio page. I still haven't made a substantial amount of progress, not as much as I'd like at least, but it's slowly coming together. For the sake of practice, I'm trying to more or less replicate the example portfolio page with my own personal touches added in. From there, perhaps I'll fully customize it to my liking.
+
+In the process of figuring out how to make nav bar links highlight once the respective anchor tag they link to on the page scrolls into view, I learned about a JavaScript function called getBoundingClientRect. I also learned about the onscroll event and how to find the coordinates of an element in a document. In trying to come up with some JavaScript functionality that would do what I wanted, I learned that CodePen was limiting me...and I learned shortly thereafter that this functionality comes bundled with Bootstrap via a script called ScrollSpy. I'll try to implement that tomorrow or this weekend.
+
+I went through several more bootcamp lessons today at lunch. I also read an article on 30 different CSS selectors, and I'm anxious to try putting them to use.
+
+**Thoughts**: In a perfect world, I'd never be frustrated. I would understand everything I learned immediately and never forget it. In the real world, I'm often frustrated, especially when it comes to coding. But I'm learning to appreciate that frustration, because I've got a bad memory, but I learn so well from my mistakes. And when I finally have that "A-ha!" moment, it's *so* much sweeter. Today was one of those days, and it's pretty sweet.
+
+**Link(s) to work**
+1. [freeCodeCamp portfolio (in progress)](https://codepen.io/jaredcaraway/pen/mMGrWZ?editors=1000)
+
