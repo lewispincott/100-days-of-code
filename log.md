@@ -792,3 +792,14 @@ I went through several more bootcamp lessons today at lunch. I also read an arti
 **Link(s) to work**
 1. [freeCodeCamp portfolio (in progress)](https://codepen.io/jaredcaraway/pen/mMGrWZ?editors=1000)
 
+### Day 54: October 14, 2017, Saturday
+
+**Today's Progress**: More work on my freeCodeCamp portfolio today; I feel like this will be a great starting point for my legit portfolio once it's finished. My progress on this particular project is fairly slow, but I'm learning a great deal in the process. Most of my work right now is focused on nailing down the CSS. I'm getting increasingly comfortable with Bootstrap, and I can easily seeing myself using it on client websites.
+
+There's honestly not a whole lot to report; I've been working on a number of very small features. In the interest of avoiding a long list of tweaks, I'll just make this one an an uncharacteristically short log for once. I'm also pretty ready to go to bed.
+
+**Thoughts**: Still feeling good about my progress. I should be wrapping up this project soon and am looking forward to moving onto the next one (I've been stalled here for months). I think I'll be working on my latest exercise for Colt's bootcamp tomorrow.
+
+**Link(s) to work**
+1. [freeCodeCamp portfolio (in progress)](https://codepen.io/jaredcaraway/pen/mMGrWZ?editors=1000)
+
