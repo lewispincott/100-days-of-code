@@ -803,3 +803,16 @@ There's honestly not a whole lot to report; I've been working on a number of ver
 **Link(s) to work**
 1. [freeCodeCamp portfolio (in progress)](https://codepen.io/jaredcaraway/pen/mMGrWZ?editors=1000)
 
+### Day 55: October 15, 2017, Sunday
+
+**Today's Progress**: I've got a laser focus on getting my portfolio finished so I can move onto the next lesson. I think I might be to a point where I'm comfortable submitting tomorrow. I'm also considering going back and redoing the half-assed tribute page with my more developed skills now; I'm thinking about focusing on Elliott Smith, one of my favorite musicians of all time.
+
+Tonight, I ticked several things off my "Doing" list in Trello. There's still quite a bit of polish I'd like to put on it, but for a practice portfolio site in CodePen, I'm pretty happy with how it's turning out. It's come a *long* way from when I started. I figured out how to get Scrollspy working (which, for one-page sites containing anchors, highlights the respective section currently onscreen in the nav bar). I was initially confused about how to make it work due to CodePen plugging the code you write inside <body> tags; however, after some Googling, I discovered that it was okay to put in your own body tags. This was what I was missing, and one instance in which I wish I'd been producing the website fully on my own via an IDE...CodePen is useful as hell, but it only goes so far. And I honestly just don't like developing my stuff in it. As well-produced as it is, it's still glitchy at times. Tonight I had to clear my browser cache to get the preview to work.
+
+I also played around a bit with Less variables and mixins. I haven't fully implemented them; I may refactor at some future point, but I'm also considering going ahead and using them from the start on my next project, which will go into my portfolio once it's done.
+
+**Thoughts**: It's surprising to me how even the seemingly simpler features can take such a long time to code and get right. I'm not struggling by any means, but I am still definitely learning. The good thing is that the lessons I'm learning can be applied going forward; I'm increasing my overall knowledge through hands-on experience. I learn best from making mistakes and fixing them, and there's a lot of that going on. Until tomorrow!
+
+**Link(s) to work**
+1. [freeCodeCamp portfolio (in progress)](https://codepen.io/jaredcaraway/pen/mMGrWZ?editors=1000)
+
